@@ -159,6 +159,9 @@
   <data name="&gt;&gt;guna2Panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="guna2CirclePictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="guna2CirclePictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, -26</value>
   </data>
@@ -280,7 +283,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="guna2GradientPanel1.AccessibleName" xml:space="preserve">
     <value> </value>
@@ -288,7 +291,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAACxJREFUSEtjGAWjYBSMAhIBe7LAf2pgqHGYAJticjDUuFEwCkbBKCAOMDAAAPbe
+        DAAACwwBP0AiyAAAACxJREFUSEtjGAWjYBSMAhIBe7LAf2pgqHGYAJticjDUuFEwCkbBKCAOMDAAAPbe
         NQWdXHPOAAAAAElFTkSuQmCC
 </value>
   </data>
@@ -322,7 +325,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAjRJREFUaEPtWU1PwkAQLUob+dgSjcRo9Gi8e/KHiPoLvItCFzxwUIx3/wUx/hQ1
+        DAAACwwBP0AiyAAAAjRJREFUaEPtWU1PwkAQLUob+dgSjcRo9Gi8e/KHiPoLvItCFzxwUIx3/wUx/hQ1
         Gn+GiaJR4wGdKWMyhQItbSnSfcm7MDtv3qNLsmU1BQWF4MjVciu6FE1DinvguyHNn8kR5lniTrfEOfog
         S/6hS3MfhN7ch0yaoq1XzT2y5h3QdAACnX7BWNnxFSZbz65Ofht5JOwQz9sMfhOXzmbzEwSOMSAtmQjo
         Cz0BD1/cD/xmLmjJcOiW+cQbIcQRlWIBhCk7/ZiPVBqKlP0EWKNWyxepFg/K+WXuB/3Bp6lucRAONd3R
@@ -364,12 +367,15 @@
   <data name="exit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAPVJREFUSEvtlU0OgjAQRifRdtN6Gg/gonXp0vtJjG70YP4k7l3pTJmyADpUIUQT
+        DAAACwwBP0AiyAAAAPVJREFUSEvtlU0OgjAQRifRdtN6Gg/gonXp0vtJjG70YP4k7l3pTJmyADpUIUQT
         XvJtyldeC6TAxH+i14uNduahvS1gBXMeToMd7exeOXuluTwqU0rsEyUvivLmJMrwGnViP8zNkWlv7tUk
         TlJWl8Q4c+NGGiwWjYmYhiwlKbPjlsAWZlg81CaG4I3PsAQVOs4exU4WwmppXLrW+ohFhJ215bOd1MmU
         9ZNEOmTDSAjhxVOG240gien/fjIkMd/JRvm8hZ1UqxY+kKrTBZb7H0F4knMrzRCHqvL2wo00o/0mCCrS
         qsIjkCQR7KCkoN9DtmTixwB4A2/P/nr4rqeQAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="exit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="exit.Location" type="System.Drawing.Point, System.Drawing">
     <value>768, 3</value>
@@ -394,6 +400,9 @@
   </data>
   <data name="&gt;&gt;exit.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="guna2PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="guna2PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 0</value>
@@ -497,7 +506,7 @@ Quản lý Cây gia phả của Nhóm 7</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;guna2GradientPanel1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -526,16 +535,4 @@ Quản lý Cây gia phả của Nhóm 7</value>
   <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>141, 17</value>
   </metadata>
-  <metadata name="guna2ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>301, 17</value>
-  </metadata>
-  <data name="guna2ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
-  </data>
-  <data name="&gt;&gt;guna2ContextMenuStrip1.Name" xml:space="preserve">
-    <value>guna2ContextMenuStrip1</value>
-  </data>
-  <data name="&gt;&gt;guna2ContextMenuStrip1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ContextMenuStrip, Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
 </root>

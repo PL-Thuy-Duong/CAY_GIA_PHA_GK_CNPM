@@ -44,13 +44,21 @@ namespace GIAO_DIEN_CNPM
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
-
+            guna2TextBox2.UseSystemPasswordChar = true;
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            guna2TextBox2.UseSystemPasswordChar = false;
-           // guna2PictureBox2.Image = Image.f
+            if(guna2TextBox2.UseSystemPasswordChar == false)
+            {
+                guna2TextBox2.UseSystemPasswordChar = true;
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
+            }
+            else
+            {
+                guna2TextBox2.UseSystemPasswordChar = false;
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
+            }
         }
     }
 }

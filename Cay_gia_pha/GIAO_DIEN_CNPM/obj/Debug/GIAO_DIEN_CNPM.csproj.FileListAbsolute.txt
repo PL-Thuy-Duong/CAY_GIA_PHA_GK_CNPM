@@ -15,3 +15,20 @@ D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_
 D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.aa.resources
 D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
 D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_nhap.resources
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe.config
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Guna.UI2.dll
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.AssemblyReference.cache
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.SuggestedBindingRedirects.cache
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_nhap.resources
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.resources
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Properties.Resources.resources
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.aa.resources
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.GenerateResource.cache
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CoreCompileInputs.cache
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CopyComplete
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.exe
+D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb

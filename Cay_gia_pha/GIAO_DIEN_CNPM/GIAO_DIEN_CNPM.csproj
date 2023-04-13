@@ -64,6 +64,12 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trang_chinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trang_chinh.Designer.cs">
+      <DependentUpon>Trang_chinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trang_chu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trang_chinh.resx">
+      <DependentUpon>Trang_chinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trang_chu.aa.resx">
       <DependentUpon>Trang_chu.cs</DependentUpon>

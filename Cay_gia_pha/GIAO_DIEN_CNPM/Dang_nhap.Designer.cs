@@ -32,7 +32,7 @@
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btDangki = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtpass = new Guna.UI2.WinForms.Guna2TextBox();
@@ -53,7 +53,7 @@
             this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(255)))), ((int)(((byte)(185)))));
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox2);
             this.guna2GradientPanel1.Controls.Add(this.linkLabel1);
-            this.guna2GradientPanel1.Controls.Add(this.guna2Button2);
+            this.guna2GradientPanel1.Controls.Add(this.btDangki);
             this.guna2GradientPanel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2GradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2GradientPanel1.Controls.Add(this.txtpass);
@@ -95,27 +95,27 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Quên mật khẩu";
             // 
-            // guna2Button2
+            // btDangki
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button2.BorderRadius = 5;
-            this.guna2Button2.BorderThickness = 1;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Image = global::GIAO_DIEN_CNPM.Properties.Resources.google;
-            this.guna2Button2.Location = new System.Drawing.Point(241, 284);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(175, 34);
-            this.guna2Button2.TabIndex = 15;
-            this.guna2Button2.Text = "Đăng kí với Google";
-            this.guna2Button2.UseTransparentBackground = true;
+            this.btDangki.Animated = true;
+            this.btDangki.BackColor = System.Drawing.Color.Transparent;
+            this.btDangki.BorderColor = System.Drawing.Color.ForestGreen;
+            this.btDangki.BorderRadius = 5;
+            this.btDangki.BorderThickness = 1;
+            this.btDangki.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btDangki.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btDangki.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btDangki.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btDangki.FillColor = System.Drawing.Color.White;
+            this.btDangki.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btDangki.ForeColor = System.Drawing.Color.Black;
+            this.btDangki.Image = global::GIAO_DIEN_CNPM.Properties.Resources.google;
+            this.btDangki.Location = new System.Drawing.Point(241, 284);
+            this.btDangki.Name = "btDangki";
+            this.btDangki.Size = new System.Drawing.Size(175, 34);
+            this.btDangki.TabIndex = 15;
+            this.btDangki.Text = "Đăng kí với Google";
+            this.btDangki.UseTransparentBackground = true;
             // 
             // guna2HtmlLabel3
             // 
@@ -246,7 +246,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btDangki;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
     }

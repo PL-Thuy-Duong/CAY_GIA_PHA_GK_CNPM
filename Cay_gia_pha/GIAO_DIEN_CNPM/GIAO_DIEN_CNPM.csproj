@@ -52,11 +52,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dang_ki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dang_ki.Designer.cs">
+      <DependentUpon>Dang_ki.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dang_nhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trang_chinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trang_chinh.Designer.cs">
+      <DependentUpon>Trang_chinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -71,8 +83,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dang_ki.resx">
+      <DependentUpon>Dang_ki.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trang_chinh.resx">
+      <DependentUpon>Trang_chinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trang_chu.aa.resx">
       <DependentUpon>Trang_chu.cs</DependentUpon>
@@ -128,6 +146,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\show_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-pic-final1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,45 +18,27 @@ namespace GIAO_DIEN_CNPM
 
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide(); 
         }
 
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        private void txtpass_TextChanged(object sender, EventArgs e)
         {
-            guna2TextBox2.UseSystemPasswordChar = true;
+
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            if(guna2TextBox2.UseSystemPasswordChar == false)
+            if(txtpass.PasswordChar == '\0')
             {
-                guna2TextBox2.UseSystemPasswordChar = true;
+                txtpass.PasswordChar = '●';
                 guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
             }
             else
             {
-                guna2TextBox2.UseSystemPasswordChar = false;
+                txtpass.PasswordChar = '\0';
                 guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
             }
         }

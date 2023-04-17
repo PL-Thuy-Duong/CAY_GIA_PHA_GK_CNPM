@@ -21,5 +21,33 @@ namespace GIAO_DIEN_CNPM
         {
             this.Hide();
         }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (txtpassnew.PasswordChar == '\0')
+            {
+                txtpassnew.PasswordChar = '●';
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
+            }
+            else
+            {
+                txtpassnew.PasswordChar = '\0';
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
+            }
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            if (guna2TextBox3.PasswordChar == '\0')
+            {
+                guna2TextBox3.PasswordChar = '●';
+                guna2PictureBox3.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
+            }
+            else
+            {
+                guna2TextBox3.PasswordChar = '\0';
+                guna2PictureBox3.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
+            }
+        }
     }
 }

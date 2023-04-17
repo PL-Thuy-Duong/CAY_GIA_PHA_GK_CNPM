@@ -34,12 +34,12 @@ namespace GIAO_DIEN_CNPM
             if(txtpass.PasswordChar == '\0')
             {
                 txtpass.PasswordChar = '●';
-                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
             }
             else
             {
                 txtpass.PasswordChar = '\0';
-                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
+                guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.show_pass;
             }
         }
     }

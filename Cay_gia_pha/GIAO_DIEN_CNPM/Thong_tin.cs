@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace GIAO_DIEN_CNPM
 {
-    public partial class Trang_chinh : Form
+    public partial class Thong_tin : Form
     {
-        public Trang_chinh()
+        public Thong_tin()
         {
             InitializeComponent();
-        }
-
-        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pcTree_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

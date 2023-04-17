@@ -42,5 +42,26 @@ namespace GIAO_DIEN_CNPM
                 guna2PictureBox2.Image = GIAO_DIEN_CNPM.Properties.Resources.hide_pass;
             }
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btDangki_Click(object sender, EventArgs e)
+        {
+            Dang_ki dk = new Dang_ki();
+            dk.Show();
+        }
     }
 }

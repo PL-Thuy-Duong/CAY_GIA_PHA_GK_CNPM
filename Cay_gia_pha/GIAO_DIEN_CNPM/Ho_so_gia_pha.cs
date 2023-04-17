@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace GIAO_DIEN_CNPM
 {
-    public partial class Dang_ki : Form
+    public partial class Ho_so_gia_pha : Form
     {
-        public Dang_ki()
+        public Ho_so_gia_pha()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
         }
     }
 }

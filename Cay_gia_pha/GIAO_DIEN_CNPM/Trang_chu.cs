@@ -32,5 +32,10 @@ namespace GIAO_DIEN_CNPM
         {
             Application.Exit();
         }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

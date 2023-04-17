@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
@@ -64,6 +65,23 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gia_Pha.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gia_Pha.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Ho_so_gia_pha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ho_so_gia_pha.Designer.cs">
+      <DependentUpon>Ho_so_gia_pha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thong_tin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thong_tin.Designer.cs">
+      <DependentUpon>Thong_tin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Trang_chinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +101,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tro_giup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tro_giup.Designer.cs">
+      <DependentUpon>Tro_giup.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Dang_ki.resx">
       <DependentUpon>Dang_ki.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ho_so_gia_pha.resx">
+      <DependentUpon>Ho_so_gia_pha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thong_tin.resx">
+      <DependentUpon>Thong_tin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trang_chinh.resx">
       <DependentUpon>Trang_chinh.cs</DependentUpon>
@@ -103,6 +133,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tro_giup.resx">
+      <DependentUpon>Tro_giup.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Gia_Pha.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Gia_Pha.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Gia_Pha.dbml.layout">
+      <DependentUpon>Gia_Pha.dbml</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -191,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login-pic-final1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

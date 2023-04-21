@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dang_nhap));
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.btKtraDN = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.btDangki = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtpass = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txttaikhoan = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btDangki = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btKtraDN = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -66,45 +66,8 @@
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(421, 338);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(421, 402);
             this.guna2GradientPanel1.TabIndex = 1;
-            // 
-            // btKtraDN
-            // 
-            this.btKtraDN.Animated = true;
-            this.btKtraDN.BackColor = System.Drawing.Color.Transparent;
-            this.btKtraDN.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btKtraDN.BorderRadius = 5;
-            this.btKtraDN.BorderThickness = 1;
-            this.btKtraDN.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btKtraDN.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btKtraDN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btKtraDN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btKtraDN.FillColor = System.Drawing.Color.White;
-            this.btKtraDN.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.btKtraDN.ForeColor = System.Drawing.Color.Black;
-            this.btKtraDN.Location = new System.Drawing.Point(112, 271);
-            this.btKtraDN.Name = "btKtraDN";
-            this.btKtraDN.Size = new System.Drawing.Size(179, 34);
-            this.btKtraDN.TabIndex = 18;
-            this.btKtraDN.Text = "Đăng nhập";
-            this.btKtraDN.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(316, 214);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(17, 17);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 17;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
-            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // linkLabel1
             // 
@@ -119,30 +82,6 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Quên mật khẩu";
             // 
-            // btDangki
-            // 
-            this.btDangki.Animated = true;
-            this.btDangki.BackColor = System.Drawing.Color.Transparent;
-            this.btDangki.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btDangki.BorderRadius = 5;
-            this.btDangki.BorderThickness = 1;
-            this.btDangki.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btDangki.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btDangki.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btDangki.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btDangki.FillColor = System.Drawing.Color.White;
-            this.btDangki.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btDangki.ForeColor = System.Drawing.Color.Black;
-            this.btDangki.Image = global::GIAO_DIEN_CNPM.Properties.Resources.google;
-            this.btDangki.Location = new System.Drawing.Point(205, 351);
-            this.btDangki.Margin = new System.Windows.Forms.Padding(2);
-            this.btDangki.Name = "btDangki";
-            this.btDangki.Size = new System.Drawing.Size(174, 28);
-            this.btDangki.TabIndex = 15;
-            this.btDangki.Text = "Đăng kí với Google";
-            this.btDangki.UseTransparentBackground = true;
-            this.btDangki.Click += new System.EventHandler(this.btDangki_Click);
-            // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -154,17 +93,6 @@
             this.guna2HtmlLabel3.TabIndex = 14;
             this.guna2HtmlLabel3.Text = "Bạn chưa có tài khoản?";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::GIAO_DIEN_CNPM.Properties.Resources.login_icon1;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(134, 6);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(157, 159);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 13;
-            this.guna2PictureBox1.TabStop = false;
             // 
             // txtpass
             // 
@@ -232,6 +160,57 @@
             this.txttaikhoan.Size = new System.Drawing.Size(223, 30);
             this.txttaikhoan.TabIndex = 8;
             // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
+            this.guna2PictureBox2.Location = new System.Drawing.Point(316, 214);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(17, 17);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 17;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
+            // 
+            // btDangki
+            // 
+            this.btDangki.Animated = true;
+            this.btDangki.BackColor = System.Drawing.Color.Transparent;
+            this.btDangki.BorderColor = System.Drawing.Color.ForestGreen;
+            this.btDangki.BorderRadius = 5;
+            this.btDangki.BorderThickness = 1;
+            this.btDangki.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btDangki.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btDangki.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btDangki.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btDangki.FillColor = System.Drawing.Color.White;
+            this.btDangki.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btDangki.ForeColor = System.Drawing.Color.Black;
+            this.btDangki.Image = global::GIAO_DIEN_CNPM.Properties.Resources.google;
+            this.btDangki.Location = new System.Drawing.Point(205, 351);
+            this.btDangki.Margin = new System.Windows.Forms.Padding(2);
+            this.btDangki.Name = "btDangki";
+            this.btDangki.Size = new System.Drawing.Size(174, 28);
+            this.btDangki.TabIndex = 15;
+            this.btDangki.Text = "Đăng kí với Google";
+            this.btDangki.UseTransparentBackground = true;
+            this.btDangki.Click += new System.EventHandler(this.btDangki_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::GIAO_DIEN_CNPM.Properties.Resources.login_icon1;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(134, 6);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(157, 159);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 13;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -246,11 +225,32 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // btKtraDN
+            // 
+            this.btKtraDN.Animated = true;
+            this.btKtraDN.BackColor = System.Drawing.Color.Transparent;
+            this.btKtraDN.BorderColor = System.Drawing.Color.ForestGreen;
+            this.btKtraDN.BorderRadius = 5;
+            this.btKtraDN.BorderThickness = 1;
+            this.btKtraDN.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btKtraDN.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btKtraDN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btKtraDN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btKtraDN.FillColor = System.Drawing.Color.White;
+            this.btKtraDN.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
+            this.btKtraDN.ForeColor = System.Drawing.Color.Black;
+            this.btKtraDN.Location = new System.Drawing.Point(112, 271);
+            this.btKtraDN.Name = "btKtraDN";
+            this.btKtraDN.Size = new System.Drawing.Size(179, 34);
+            this.btKtraDN.TabIndex = 18;
+            this.btKtraDN.Text = "Đăng nhập";
+            this.btKtraDN.UseTransparentBackground = true;
+            // 
             // Dang_nhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 338);
+            this.ClientSize = new System.Drawing.Size(421, 402);
             this.Controls.Add(this.guna2GradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dang_nhap";

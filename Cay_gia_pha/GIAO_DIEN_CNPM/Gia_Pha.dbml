@@ -1,1 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Class="Gia_PhaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_Gia_Pha" Class="Gia_PhaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\DUONGSQLSERVER;Initial Catalog=QL_Gia_Pha;Integrated Security=True" SettingsObjectName="GIAO_DIEN_CNPM.Properties.Settings" SettingsPropertyName="QL_Gia_PhaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.THONG_TIN_TV" Member="THONG_TIN_TVs">
+    <Type Name="THONG_TIN_TV">
+      <Column Name="MaTV" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenTV" Type="System.String" DbType="NVarChar(35)" CanBeNull="true" />
+      <Column Name="NgayGSinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GT" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="NgayPSinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Doi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaTT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="MaNN" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="MaQQ" Type="System.String" DbType="NChar(5)" CanBeNull="true" />
+      <Association Name="THONG_TIN_TV_DANG_NHAP_TK" Member="DANG_NHAP_TKs" ThisKey="MaTV" OtherKey="TenTK" Type="DANG_NHAP_TK" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DANG_NHAP_TK" Member="DANG_NHAP_TKs">
+    <Type Name="DANG_NHAP_TK">
+      <Column Name="TenTK" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="MK" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Quyen" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Association Name="THONG_TIN_TV_DANG_NHAP_TK" Member="THONG_TIN_TV" ThisKey="TenTK" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

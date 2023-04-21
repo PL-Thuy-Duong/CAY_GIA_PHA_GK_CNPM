@@ -57,3 +57,5 @@ D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\G
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ho_so_gia_pha.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CopyComplete
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Thong_tin.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tro_giup.resources

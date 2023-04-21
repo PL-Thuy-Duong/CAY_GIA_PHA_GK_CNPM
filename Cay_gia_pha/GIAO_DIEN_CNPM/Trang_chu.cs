@@ -15,6 +15,7 @@ namespace GIAO_DIEN_CNPM
         public Trang_chu()
         {
             InitializeComponent();
+            this.Icon = Properties.Resources.Family1;
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -24,7 +25,7 @@ namespace GIAO_DIEN_CNPM
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Dang_nhap dangnhap = new Dang_nhap();
+            Dang_nhap dangnhap = new Dang_nhap(this);
             dangnhap.Show();
         }
 
@@ -36,6 +37,11 @@ namespace GIAO_DIEN_CNPM
         private void guna2HtmlLabel3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

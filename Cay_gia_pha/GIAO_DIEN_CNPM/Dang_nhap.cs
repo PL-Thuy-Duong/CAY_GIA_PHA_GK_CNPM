@@ -12,16 +12,19 @@ namespace GIAO_DIEN_CNPM
 {
     public partial class Dang_nhap : Form
     {
-        public Dang_nhap()
+        private Trang_chu trang_Chu;
+        public Dang_nhap(Trang_chu trang_Chu)
         {
             InitializeComponent();
-
+            this.trang_Chu = trang_Chu;
+            trang_Chu.Hide();
         }
 
       
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Hide(); 
+            this.Close();
+            trang_Chu.Show();
         }
 
         private void txtpass_TextChanged(object sender, EventArgs e)
@@ -60,8 +63,14 @@ namespace GIAO_DIEN_CNPM
 
         private void btDangki_Click(object sender, EventArgs e)
         {
-            Dang_ki dk = new Dang_ki();
+            Dang_ki dk = new Dang_ki(this);
             dk.Show();
+        }
+
+        private void btKtraDN_Click(object sender, EventArgs e)
+        {
+            Trang_chinh tc = new Trang_chinh(this);
+            tc.Show();
         }
     }
 }

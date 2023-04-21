@@ -12,14 +12,18 @@ namespace GIAO_DIEN_CNPM
 {
     public partial class Dang_ki : Form
     {
-        public Dang_ki()
+        private Dang_nhap dang_Nhap;
+        public Dang_ki(Dang_nhap dang_Nhap)
         {
             InitializeComponent();
+            this.dang_Nhap = dang_Nhap;
+            dang_Nhap.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
+            dang_Nhap.Show();
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)

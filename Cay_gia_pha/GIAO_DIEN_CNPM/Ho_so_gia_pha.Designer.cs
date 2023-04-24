@@ -61,8 +61,9 @@
             this.datathongtin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datathongtin.Dock = System.Windows.Forms.DockStyle.Top;
             this.datathongtin.Location = new System.Drawing.Point(0, 0);
-            this.datathongtin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datathongtin.Margin = new System.Windows.Forms.Padding(4);
             this.datathongtin.Name = "datathongtin";
+            this.datathongtin.RowHeadersWidth = 51;
             this.datathongtin.Size = new System.Drawing.Size(799, 326);
             this.datathongtin.TabIndex = 0;
             // 
@@ -80,6 +81,7 @@
             this.txtTimKiem.ForeColor = System.Drawing.Color.Black;
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Location = new System.Drawing.Point(102, 340);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
             this.txtTimKiem.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -143,7 +145,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(697, 366);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(81, 23);
             this.label1.TabIndex = 12;
             this.label1.Text = "Thêm TV";
             // 
@@ -153,7 +155,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(339, 366);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 17);
+            this.label2.Size = new System.Drawing.Size(86, 23);
             this.label2.TabIndex = 13;
             this.label2.Text = "Tìm kiếm";
             // 
@@ -163,7 +165,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(494, 366);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 17);
+            this.label3.Size = new System.Drawing.Size(40, 23);
             this.label3.TabIndex = 14;
             this.label3.Text = "Xóa";
             // 
@@ -173,7 +175,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(407, 366);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 17);
+            this.label4.Size = new System.Drawing.Size(88, 23);
             this.label4.TabIndex = 15;
             this.label4.Text = "Chỉnh sửa";
             // 
@@ -195,7 +197,7 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(35, 366);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 17);
+            this.label6.Size = new System.Drawing.Size(74, 23);
             this.label6.TabIndex = 19;
             this.label6.Text = "Xem DS";
             // 
@@ -227,7 +229,7 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(539, 366);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 17);
+            this.label5.Size = new System.Drawing.Size(94, 23);
             this.label5.TabIndex = 22;
             this.label5.Text = "Thành tích";
             // 
@@ -237,7 +239,7 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(619, 366);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 17);
+            this.label7.Size = new System.Drawing.Size(98, 23);
             this.label7.TabIndex = 23;
             this.label7.Text = "Người mất";
             // 
@@ -264,7 +266,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ho_so_gia_pha";
             this.Text = "Ho_so_gia_pha";
             ((System.ComponentModel.ISupportInitialize)(this.datathongtin)).EndInit();

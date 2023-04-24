@@ -30,12 +30,21 @@ namespace GIAO_DIEN_CNPM
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InsertDANG_NHAP_TK(DANG_NHAP_TK instance);
-    partial void UpdateDANG_NHAP_TK(DANG_NHAP_TK instance);
-    partial void DeleteDANG_NHAP_TK(DANG_NHAP_TK instance);
     partial void InsertTHONG_TIN_TV(THONG_TIN_TV instance);
     partial void UpdateTHONG_TIN_TV(THONG_TIN_TV instance);
     partial void DeleteTHONG_TIN_TV(THONG_TIN_TV instance);
+    partial void InsertTHANH_TICH(THANH_TICH instance);
+    partial void UpdateTHANH_TICH(THANH_TICH instance);
+    partial void DeleteTHANH_TICH(THANH_TICH instance);
+    partial void InsertQUE_QUAN(QUE_QUAN instance);
+    partial void UpdateQUE_QUAN(QUE_QUAN instance);
+    partial void DeleteQUE_QUAN(QUE_QUAN instance);
+    partial void InsertNGHE_NGHIEP(NGHE_NGHIEP instance);
+    partial void UpdateNGHE_NGHIEP(NGHE_NGHIEP instance);
+    partial void DeleteNGHE_NGHIEP(NGHE_NGHIEP instance);
+    partial void InsertDANG_NHAP_TK(DANG_NHAP_TK instance);
+    partial void UpdateDANG_NHAP_TK(DANG_NHAP_TK instance);
+    partial void DeleteDANG_NHAP_TK(DANG_NHAP_TK instance);
     #endregion
 		
 		public Gia_PhaDataContext() : 
@@ -68,6 +77,46 @@ namespace GIAO_DIEN_CNPM
 			OnCreated();
 		}
 		
+		public System.Data.Linq.Table<THONG_TIN_TV> THONG_TIN_TVs
+		{
+			get
+			{
+				return this.GetTable<THONG_TIN_TV>();
+			}
+		}
+		
+		public System.Data.Linq.Table<NN_DD_KET_THUC> NN_DD_KET_THUCs
+		{
+			get
+			{
+				return this.GetTable<NN_DD_KET_THUC>();
+			}
+		}
+		
+		public System.Data.Linq.Table<THANH_TICH> THANH_TICHes
+		{
+			get
+			{
+				return this.GetTable<THANH_TICH>();
+			}
+		}
+		
+		public System.Data.Linq.Table<QUE_QUAN> QUE_QUANs
+		{
+			get
+			{
+				return this.GetTable<QUE_QUAN>();
+			}
+		}
+		
+		public System.Data.Linq.Table<NGHE_NGHIEP> NGHE_NGHIEPs
+		{
+			get
+			{
+				return this.GetTable<NGHE_NGHIEP>();
+			}
+		}
+		
 		public System.Data.Linq.Table<DANG_NHAP_TK> DANG_NHAP_TKs
 		{
 			get
@@ -76,162 +125,11 @@ namespace GIAO_DIEN_CNPM
 			}
 		}
 		
-		public System.Data.Linq.Table<THONG_TIN_TV> THONG_TIN_TVs
+		public System.Data.Linq.Table<QUAN_HE> QUAN_HEs
 		{
 			get
 			{
-				return this.GetTable<THONG_TIN_TV>();
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.DANG_NHAP_TK")]
-	public partial class DANG_NHAP_TK : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _TenTK;
-		
-		private string _MK;
-		
-		private System.Nullable<byte> _Quyen;
-		
-		private EntityRef<THONG_TIN_TV> _THONG_TIN_TV;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnTenTKChanging(string value);
-    partial void OnTenTKChanged();
-    partial void OnMKChanging(string value);
-    partial void OnMKChanged();
-    partial void OnQuyenChanging(System.Nullable<byte> value);
-    partial void OnQuyenChanged();
-    #endregion
-		
-		public DANG_NHAP_TK()
-		{
-			this._THONG_TIN_TV = default(EntityRef<THONG_TIN_TV>);
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTK", DbType="NChar(10)")]
-		public string TenTK
-		{
-			get
-			{
-				return this._TenTK;
-			}
-			set
-			{
-				if ((this._TenTK != value))
-				{
-					if (this._THONG_TIN_TV.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnTenTKChanging(value);
-					this.SendPropertyChanging();
-					this._TenTK = value;
-					this.SendPropertyChanged("TenTK");
-					this.OnTenTKChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MK", DbType="NChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string MK
-		{
-			get
-			{
-				return this._MK;
-			}
-			set
-			{
-				if ((this._MK != value))
-				{
-					this.OnMKChanging(value);
-					this.SendPropertyChanging();
-					this._MK = value;
-					this.SendPropertyChanged("MK");
-					this.OnMKChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Quyen", DbType="TinyInt")]
-		public System.Nullable<byte> Quyen
-		{
-			get
-			{
-				return this._Quyen;
-			}
-			set
-			{
-				if ((this._Quyen != value))
-				{
-					this.OnQuyenChanging(value);
-					this.SendPropertyChanging();
-					this._Quyen = value;
-					this.SendPropertyChanged("Quyen");
-					this.OnQuyenChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="THONG_TIN_TV_DANG_NHAP_TK", Storage="_THONG_TIN_TV", ThisKey="TenTK", OtherKey="MaTV", IsForeignKey=true)]
-		public THONG_TIN_TV THONG_TIN_TV
-		{
-			get
-			{
-				return this._THONG_TIN_TV.Entity;
-			}
-			set
-			{
-				THONG_TIN_TV previousValue = this._THONG_TIN_TV.Entity;
-				if (((previousValue != value) 
-							|| (this._THONG_TIN_TV.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._THONG_TIN_TV.Entity = null;
-						previousValue.DANG_NHAP_TKs.Remove(this);
-					}
-					this._THONG_TIN_TV.Entity = value;
-					if ((value != null))
-					{
-						value.DANG_NHAP_TKs.Add(this);
-						this._TenTK = value.MaTV;
-					}
-					else
-					{
-						this._TenTK = default(string);
-					}
-					this.SendPropertyChanged("THONG_TIN_TV");
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+				return this.GetTable<QUAN_HE>();
 			}
 		}
 	}
@@ -264,6 +162,12 @@ namespace GIAO_DIEN_CNPM
 		
 		private EntitySet<DANG_NHAP_TK> _DANG_NHAP_TKs;
 		
+		private EntityRef<THANH_TICH> _THANH_TICH;
+		
+		private EntityRef<QUE_QUAN> _QUE_QUAN;
+		
+		private EntityRef<NGHE_NGHIEP> _NGHE_NGHIEP;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -293,6 +197,9 @@ namespace GIAO_DIEN_CNPM
 		public THONG_TIN_TV()
 		{
 			this._DANG_NHAP_TKs = new EntitySet<DANG_NHAP_TK>(new Action<DANG_NHAP_TK>(this.attach_DANG_NHAP_TKs), new Action<DANG_NHAP_TK>(this.detach_DANG_NHAP_TKs));
+			this._THANH_TICH = default(EntityRef<THANH_TICH>);
+			this._QUE_QUAN = default(EntityRef<QUE_QUAN>);
+			this._NGHE_NGHIEP = default(EntityRef<NGHE_NGHIEP>);
 			OnCreated();
 		}
 		
@@ -447,6 +354,10 @@ namespace GIAO_DIEN_CNPM
 			{
 				if ((this._MaTT != value))
 				{
+					if (this._THANH_TICH.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
 					this.OnMaTTChanging(value);
 					this.SendPropertyChanging();
 					this._MaTT = value;
@@ -467,6 +378,10 @@ namespace GIAO_DIEN_CNPM
 			{
 				if ((this._MaNN != value))
 				{
+					if (this._NGHE_NGHIEP.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
 					this.OnMaNNChanging(value);
 					this.SendPropertyChanging();
 					this._MaNN = value;
@@ -487,6 +402,10 @@ namespace GIAO_DIEN_CNPM
 			{
 				if ((this._MaQQ != value))
 				{
+					if (this._QUE_QUAN.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
 					this.OnMaQQChanging(value);
 					this.SendPropertyChanging();
 					this._MaQQ = value;
@@ -506,6 +425,108 @@ namespace GIAO_DIEN_CNPM
 			set
 			{
 				this._DANG_NHAP_TKs.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="THANH_TICH_THONG_TIN_TV", Storage="_THANH_TICH", ThisKey="MaTT", OtherKey="MaTT", IsForeignKey=true)]
+		public THANH_TICH THANH_TICH
+		{
+			get
+			{
+				return this._THANH_TICH.Entity;
+			}
+			set
+			{
+				THANH_TICH previousValue = this._THANH_TICH.Entity;
+				if (((previousValue != value) 
+							|| (this._THANH_TICH.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._THANH_TICH.Entity = null;
+						previousValue.THONG_TIN_TVs.Remove(this);
+					}
+					this._THANH_TICH.Entity = value;
+					if ((value != null))
+					{
+						value.THONG_TIN_TVs.Add(this);
+						this._MaTT = value.MaTT;
+					}
+					else
+					{
+						this._MaTT = default(string);
+					}
+					this.SendPropertyChanged("THANH_TICH");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QUE_QUAN_THONG_TIN_TV", Storage="_QUE_QUAN", ThisKey="MaQQ", OtherKey="MaQQ", IsForeignKey=true)]
+		public QUE_QUAN QUE_QUAN
+		{
+			get
+			{
+				return this._QUE_QUAN.Entity;
+			}
+			set
+			{
+				QUE_QUAN previousValue = this._QUE_QUAN.Entity;
+				if (((previousValue != value) 
+							|| (this._QUE_QUAN.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._QUE_QUAN.Entity = null;
+						previousValue.THONG_TIN_TVs.Remove(this);
+					}
+					this._QUE_QUAN.Entity = value;
+					if ((value != null))
+					{
+						value.THONG_TIN_TVs.Add(this);
+						this._MaQQ = value.MaQQ;
+					}
+					else
+					{
+						this._MaQQ = default(string);
+					}
+					this.SendPropertyChanged("QUE_QUAN");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NGHE_NGHIEP_THONG_TIN_TV", Storage="_NGHE_NGHIEP", ThisKey="MaNN", OtherKey="maNN", IsForeignKey=true)]
+		public NGHE_NGHIEP NGHE_NGHIEP
+		{
+			get
+			{
+				return this._NGHE_NGHIEP.Entity;
+			}
+			set
+			{
+				NGHE_NGHIEP previousValue = this._NGHE_NGHIEP.Entity;
+				if (((previousValue != value) 
+							|| (this._NGHE_NGHIEP.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._NGHE_NGHIEP.Entity = null;
+						previousValue.THONG_TIN_TVs.Remove(this);
+					}
+					this._NGHE_NGHIEP.Entity = value;
+					if ((value != null))
+					{
+						value.THONG_TIN_TVs.Add(this);
+						this._MaNN = value.maNN;
+					}
+					else
+					{
+						this._MaNN = default(string);
+					}
+					this.SendPropertyChanged("NGHE_NGHIEP");
+				}
 			}
 		}
 		
@@ -539,6 +560,643 @@ namespace GIAO_DIEN_CNPM
 		{
 			this.SendPropertyChanging();
 			entity.THONG_TIN_TV = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.NN_DD_KET_THUC")]
+	public partial class NN_DD_KET_THUC
+	{
+		
+		private string _MaTV;
+		
+		private System.Nullable<System.DateTime> _NgayGio;
+		
+		private string _NguyenNhan;
+		
+		private string _DD;
+		
+		public NN_DD_KET_THUC()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTV", DbType="NChar(10) NOT NULL", CanBeNull=false)]
+		public string MaTV
+		{
+			get
+			{
+				return this._MaTV;
+			}
+			set
+			{
+				if ((this._MaTV != value))
+				{
+					this._MaTV = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NgayGio", DbType="DateTime")]
+		public System.Nullable<System.DateTime> NgayGio
+		{
+			get
+			{
+				return this._NgayGio;
+			}
+			set
+			{
+				if ((this._NgayGio != value))
+				{
+					this._NgayGio = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NguyenNhan", DbType="NVarChar(50) NOT NULL", CanBeNull=false)]
+		public string NguyenNhan
+		{
+			get
+			{
+				return this._NguyenNhan;
+			}
+			set
+			{
+				if ((this._NguyenNhan != value))
+				{
+					this._NguyenNhan = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DD", DbType="NVarChar(50) NOT NULL", CanBeNull=false)]
+		public string DD
+		{
+			get
+			{
+				return this._DD;
+			}
+			set
+			{
+				if ((this._DD != value))
+				{
+					this._DD = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.THANH_TICH")]
+	public partial class THANH_TICH : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MaTT;
+		
+		private string _TenTT;
+		
+		private System.DateTime _NgayGN;
+		
+		private EntitySet<THONG_TIN_TV> _THONG_TIN_TVs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMaTTChanging(string value);
+    partial void OnMaTTChanged();
+    partial void OnTenTTChanging(string value);
+    partial void OnTenTTChanged();
+    partial void OnNgayGNChanging(System.DateTime value);
+    partial void OnNgayGNChanged();
+    #endregion
+		
+		public THANH_TICH()
+		{
+			this._THONG_TIN_TVs = new EntitySet<THONG_TIN_TV>(new Action<THONG_TIN_TV>(this.attach_THONG_TIN_TVs), new Action<THONG_TIN_TV>(this.detach_THONG_TIN_TVs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTT", DbType="NChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MaTT
+		{
+			get
+			{
+				return this._MaTT;
+			}
+			set
+			{
+				if ((this._MaTT != value))
+				{
+					this.OnMaTTChanging(value);
+					this.SendPropertyChanging();
+					this._MaTT = value;
+					this.SendPropertyChanged("MaTT");
+					this.OnMaTTChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTT", DbType="NVarChar(30) NOT NULL", CanBeNull=false)]
+		public string TenTT
+		{
+			get
+			{
+				return this._TenTT;
+			}
+			set
+			{
+				if ((this._TenTT != value))
+				{
+					this.OnTenTTChanging(value);
+					this.SendPropertyChanging();
+					this._TenTT = value;
+					this.SendPropertyChanged("TenTT");
+					this.OnTenTTChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NgayGN", DbType="DateTime NOT NULL")]
+		public System.DateTime NgayGN
+		{
+			get
+			{
+				return this._NgayGN;
+			}
+			set
+			{
+				if ((this._NgayGN != value))
+				{
+					this.OnNgayGNChanging(value);
+					this.SendPropertyChanging();
+					this._NgayGN = value;
+					this.SendPropertyChanged("NgayGN");
+					this.OnNgayGNChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="THANH_TICH_THONG_TIN_TV", Storage="_THONG_TIN_TVs", ThisKey="MaTT", OtherKey="MaTT")]
+		public EntitySet<THONG_TIN_TV> THONG_TIN_TVs
+		{
+			get
+			{
+				return this._THONG_TIN_TVs;
+			}
+			set
+			{
+				this._THONG_TIN_TVs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.THANH_TICH = this;
+		}
+		
+		private void detach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.THANH_TICH = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QUE_QUAN")]
+	public partial class QUE_QUAN : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MaQQ;
+		
+		private string _TenQQ;
+		
+		private EntitySet<THONG_TIN_TV> _THONG_TIN_TVs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMaQQChanging(string value);
+    partial void OnMaQQChanged();
+    partial void OnTenQQChanging(string value);
+    partial void OnTenQQChanged();
+    #endregion
+		
+		public QUE_QUAN()
+		{
+			this._THONG_TIN_TVs = new EntitySet<THONG_TIN_TV>(new Action<THONG_TIN_TV>(this.attach_THONG_TIN_TVs), new Action<THONG_TIN_TV>(this.detach_THONG_TIN_TVs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaQQ", DbType="NChar(5) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MaQQ
+		{
+			get
+			{
+				return this._MaQQ;
+			}
+			set
+			{
+				if ((this._MaQQ != value))
+				{
+					this.OnMaQQChanging(value);
+					this.SendPropertyChanging();
+					this._MaQQ = value;
+					this.SendPropertyChanged("MaQQ");
+					this.OnMaQQChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenQQ", DbType="NVarChar(25) NOT NULL", CanBeNull=false)]
+		public string TenQQ
+		{
+			get
+			{
+				return this._TenQQ;
+			}
+			set
+			{
+				if ((this._TenQQ != value))
+				{
+					this.OnTenQQChanging(value);
+					this.SendPropertyChanging();
+					this._TenQQ = value;
+					this.SendPropertyChanged("TenQQ");
+					this.OnTenQQChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QUE_QUAN_THONG_TIN_TV", Storage="_THONG_TIN_TVs", ThisKey="MaQQ", OtherKey="MaQQ")]
+		public EntitySet<THONG_TIN_TV> THONG_TIN_TVs
+		{
+			get
+			{
+				return this._THONG_TIN_TVs;
+			}
+			set
+			{
+				this._THONG_TIN_TVs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.QUE_QUAN = this;
+		}
+		
+		private void detach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.QUE_QUAN = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.NGHE_NGHIEP")]
+	public partial class NGHE_NGHIEP : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _maNN;
+		
+		private string _TenNN;
+		
+		private EntitySet<THONG_TIN_TV> _THONG_TIN_TVs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnmaNNChanging(string value);
+    partial void OnmaNNChanged();
+    partial void OnTenNNChanging(string value);
+    partial void OnTenNNChanged();
+    #endregion
+		
+		public NGHE_NGHIEP()
+		{
+			this._THONG_TIN_TVs = new EntitySet<THONG_TIN_TV>(new Action<THONG_TIN_TV>(this.attach_THONG_TIN_TVs), new Action<THONG_TIN_TV>(this.detach_THONG_TIN_TVs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_maNN", DbType="NChar(10) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string maNN
+		{
+			get
+			{
+				return this._maNN;
+			}
+			set
+			{
+				if ((this._maNN != value))
+				{
+					this.OnmaNNChanging(value);
+					this.SendPropertyChanging();
+					this._maNN = value;
+					this.SendPropertyChanged("maNN");
+					this.OnmaNNChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenNN", DbType="NVarChar(30) NOT NULL", CanBeNull=false)]
+		public string TenNN
+		{
+			get
+			{
+				return this._TenNN;
+			}
+			set
+			{
+				if ((this._TenNN != value))
+				{
+					this.OnTenNNChanging(value);
+					this.SendPropertyChanging();
+					this._TenNN = value;
+					this.SendPropertyChanged("TenNN");
+					this.OnTenNNChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NGHE_NGHIEP_THONG_TIN_TV", Storage="_THONG_TIN_TVs", ThisKey="maNN", OtherKey="MaNN")]
+		public EntitySet<THONG_TIN_TV> THONG_TIN_TVs
+		{
+			get
+			{
+				return this._THONG_TIN_TVs;
+			}
+			set
+			{
+				this._THONG_TIN_TVs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.NGHE_NGHIEP = this;
+		}
+		
+		private void detach_THONG_TIN_TVs(THONG_TIN_TV entity)
+		{
+			this.SendPropertyChanging();
+			entity.NGHE_NGHIEP = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.DANG_NHAP_TK")]
+	public partial class DANG_NHAP_TK : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _TenTK;
+		
+		private string _MK;
+		
+		private EntityRef<THONG_TIN_TV> _THONG_TIN_TV;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnTenTKChanging(string value);
+    partial void OnTenTKChanged();
+    partial void OnMKChanging(string value);
+    partial void OnMKChanged();
+    #endregion
+		
+		public DANG_NHAP_TK()
+		{
+			this._THONG_TIN_TV = default(EntityRef<THONG_TIN_TV>);
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTK", DbType="NChar(10)")]
+		public string TenTK
+		{
+			get
+			{
+				return this._TenTK;
+			}
+			set
+			{
+				if ((this._TenTK != value))
+				{
+					if (this._THONG_TIN_TV.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnTenTKChanging(value);
+					this.SendPropertyChanging();
+					this._TenTK = value;
+					this.SendPropertyChanged("TenTK");
+					this.OnTenTKChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MK", DbType="NChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MK
+		{
+			get
+			{
+				return this._MK;
+			}
+			set
+			{
+				if ((this._MK != value))
+				{
+					this.OnMKChanging(value);
+					this.SendPropertyChanging();
+					this._MK = value;
+					this.SendPropertyChanged("MK");
+					this.OnMKChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="THONG_TIN_TV_DANG_NHAP_TK", Storage="_THONG_TIN_TV", ThisKey="TenTK", OtherKey="MaTV", IsForeignKey=true)]
+		public THONG_TIN_TV THONG_TIN_TV
+		{
+			get
+			{
+				return this._THONG_TIN_TV.Entity;
+			}
+			set
+			{
+				THONG_TIN_TV previousValue = this._THONG_TIN_TV.Entity;
+				if (((previousValue != value) 
+							|| (this._THONG_TIN_TV.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._THONG_TIN_TV.Entity = null;
+						previousValue.DANG_NHAP_TKs.Remove(this);
+					}
+					this._THONG_TIN_TV.Entity = value;
+					if ((value != null))
+					{
+						value.DANG_NHAP_TKs.Add(this);
+						this._TenTK = value.MaTV;
+					}
+					else
+					{
+						this._TenTK = default(string);
+					}
+					this.SendPropertyChanged("THONG_TIN_TV");
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QUAN_HE")]
+	public partial class QUAN_HE
+	{
+		
+		private string _MaTV1;
+		
+		private string _QuanHe;
+		
+		private string _MaTV2;
+		
+		public QUAN_HE()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTV1", DbType="NChar(10)")]
+		public string MaTV1
+		{
+			get
+			{
+				return this._MaTV1;
+			}
+			set
+			{
+				if ((this._MaTV1 != value))
+				{
+					this._MaTV1 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_QuanHe", DbType="NVarChar(12)")]
+		public string QuanHe
+		{
+			get
+			{
+				return this._QuanHe;
+			}
+			set
+			{
+				if ((this._QuanHe != value))
+				{
+					this._QuanHe = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTV2", DbType="NChar(10)")]
+		public string MaTV2
+		{
+			get
+			{
+				return this._MaTV2;
+			}
+			set
+			{
+				if ((this._MaTV2 != value))
+				{
+					this._MaTV2 = value;
+				}
+			}
 		}
 	}
 }

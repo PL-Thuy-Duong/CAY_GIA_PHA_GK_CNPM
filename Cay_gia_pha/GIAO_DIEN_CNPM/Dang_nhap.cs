@@ -48,7 +48,7 @@ namespace GIAO_DIEN_CNPM
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void guna2HtmlLabel4_Click(object sender, EventArgs e)
@@ -61,12 +61,7 @@ namespace GIAO_DIEN_CNPM
 
         }
 
-        private void btDangki_Click(object sender, EventArgs e)
-        {
-            Dang_ki dk = new Dang_ki(this);
-            dk.Show();
-        }
-
+    
         private void btKtraDN_Click(object sender, EventArgs e)
         {
             Trang_chinh tc = new Trang_chinh(this);

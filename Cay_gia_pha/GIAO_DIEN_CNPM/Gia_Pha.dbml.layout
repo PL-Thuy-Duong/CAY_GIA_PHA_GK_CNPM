@@ -11,7 +11,7 @@
     <classShape Id="1717f844-d637-4bfb-aefe-232e59cdf846" absoluteBounds="1.375, 2.625, 2, 2.7324039713541666">
       <DataClassMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV" />
       <nestedChildShapes>
-        <elementListCompartment Id="e6882cf3-b347-4be0-9c49-48a498da5c91" absoluteBounds="1.3900000000000001, 3.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="e6882cf3-b347-4be0-9c49-48a498da5c91" absoluteBounds="1.39, 3.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <associationConnector edgePoints="[(2.375 : 2.625); (2.375 : 2.0112939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">

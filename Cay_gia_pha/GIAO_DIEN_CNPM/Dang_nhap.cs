@@ -12,6 +12,9 @@ namespace GIAO_DIEN_CNPM
 {
     public partial class Dang_nhap : Form
     {
+        string tenTaiKhoan = "admin";
+        string matKhau = "admin";
+
         private Trang_chu trang_Chu;
         public Dang_nhap(Trang_chu trang_Chu)
         {
@@ -64,8 +67,29 @@ namespace GIAO_DIEN_CNPM
     
         private void btKtraDN_Click(object sender, EventArgs e)
         {
-            Trang_chinh tc = new Trang_chinh(this);
-            tc.Show();
+            if(kiemTraDangNhap(txttaikhoan.Text, txtpass.Text))
+            {
+                Trang_chinh tc = new Trang_chinh(this);
+                tc.Show();
+                this.txttaikhoan.ResetText();
+                this.txtpass.ResetText();
+                
+            }    
         }
+
+        private void txttaikhoan_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        bool kiemTraDangNhap(string tenTaiKhoan, string matKhau)
+        {
+            if(tenTaiKhoan == this.tenTaiKhoan && matKhau == this.matKhau)
+            {
+                return true;
+            }    
+            return false;
+        }
+
     }
 }

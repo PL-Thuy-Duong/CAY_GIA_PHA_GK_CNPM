@@ -10,8 +10,8 @@ using System.Web.UI;
 using System.Windows.Forms;
 
 namespace GIAO_DIEN_CNPM
-{   
-    
+{
+
     public partial class Trang_chinh : Form
     {
         private Dang_nhap dang_Nhap;
@@ -58,11 +58,13 @@ namespace GIAO_DIEN_CNPM
 
         private void pcTimkiem_Click(object sender, EventArgs e)
         {
+           
             Ho_so_gia_pha frm2 = new Ho_so_gia_pha();
             frm2.TopLevel = false;
             panelmain.Controls.Add(frm2);
             frm2.Dock = DockStyle.Fill;
             frm2.Show();
+            
         }
     }
 }

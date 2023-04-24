@@ -12,6 +12,7 @@ namespace GIAO_DIEN_CNPM
 {
     public partial class Dang_nhap : Form
     {
+
         private Trang_chu trang_Chu;
         public Dang_nhap(Trang_chu trang_Chu)
         {

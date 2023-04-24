@@ -357,7 +357,7 @@
             this.btKtraDN.ForeColor = System.Drawing.Color.Transparent;
             this.btKtraDN.Location = new System.Drawing.Point(527, 243);
             this.btKtraDN.Name = "btKtraDN";
-            this.btKtraDN.Size = new System.Drawing.Size(179, 49);
+            this.btKtraDN.Size = new System.Drawing.Size(151, 50);
             this.btKtraDN.TabIndex = 24;
             this.btKtraDN.Text = "Tiếp nhận";
             this.btKtraDN.UseTransparentBackground = true;

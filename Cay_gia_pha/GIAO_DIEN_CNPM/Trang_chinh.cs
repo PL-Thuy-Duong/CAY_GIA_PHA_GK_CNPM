@@ -15,7 +15,6 @@ namespace GIAO_DIEN_CNPM
     public partial class Trang_chinh : Form
     {
         private Dang_nhap dang_Nhap;
-        public Form child = null;
 
         public Trang_chinh(Dang_nhap dang_Nhap)
         {
@@ -23,6 +22,23 @@ namespace GIAO_DIEN_CNPM
             dang_Nhap.Hide();
             this.dang_Nhap = dang_Nhap;
         }
+        public Form activeForm = null;
+        public void OpenChildForm(Form childForm)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelmain.Controls.Add(childForm);
+            panelmain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -43,7 +59,7 @@ namespace GIAO_DIEN_CNPM
             thong_Tin.TopLevel = false;
             panelmain.Controls.Add(thong_Tin);
             thong_Tin.Dock = DockStyle.Fill;
-            thong_Tin.Show();
+            OpenChildForm(thong_Tin);
         }
 
         private void pcHelp_Click(object sender, EventArgs e)
@@ -52,18 +68,17 @@ namespace GIAO_DIEN_CNPM
             tro_Giup.TopLevel = false;
             panelmain.Controls.Add(tro_Giup);
             tro_Giup.Dock = DockStyle.Fill;
-            tro_Giup.Show();
+            OpenChildForm(tro_Giup);
         }
 
 
         private void pcTimkiem_Click(object sender, EventArgs e)
         {
-           
             Ho_so_gia_pha frm2 = new Ho_so_gia_pha();
             frm2.TopLevel = false;
             panelmain.Controls.Add(frm2);
             frm2.Dock = DockStyle.Fill;
-            frm2.Show();
+            OpenChildForm(frm2);
             
         }
     }

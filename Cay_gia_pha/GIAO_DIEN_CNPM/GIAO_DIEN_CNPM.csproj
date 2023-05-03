@@ -59,6 +59,18 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ghi_nhan_KT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ghi_nhan_KT.Designer.cs">
+      <DependentUpon>Ghi_nhan_KT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tiep_nhan_TT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tiep_nhan_TT.Designer.cs">
+      <DependentUpon>Tiep_nhan_TT.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tiep_nhan_tv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,12 @@
     </Compile>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ghi_nhan_KT.resx">
+      <DependentUpon>Ghi_nhan_KT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tiep_nhan_TT.resx">
+      <DependentUpon>Tiep_nhan_TT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tiep_nhan_tv.resx">
       <DependentUpon>Tiep_nhan_tv.cs</DependentUpon>
@@ -232,6 +250,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Family.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\die-gr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achieve.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

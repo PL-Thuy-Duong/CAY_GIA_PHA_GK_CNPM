@@ -56,19 +56,16 @@ namespace GIAO_DIEN_CNPM
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)//xem hồ sơ thành viên
-        {
+        {/*
             using (Gia_PhaDataContext db = new Gia_PhaDataContext())
             {
-                //datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
-                datathongtin.DataSource = from u in db.THONG_TIN_TVs
+                datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
+                *//*datathongtin.DataSource = from u in db.THONG_TIN_TVs
                                           from v in db.NGHE_NGHIEPs
                                           from t in db.QUE_QUANs
-                                          from z in db.QUAN_HEs
-                                          from x in db.THANH_TICHes
-                                          where u.MaQQ == t.MaQQ
+                                         
                                           where u.MaNN == v.maNN
-                                          where u.MaTV == z.MaTV1
-                                          where x.MaTT == u.MaTT
+                                          where u.MaQQ == t.MaQQ
                                           select new
                                           {
                                               Họ_và_Tên_TV_1 = u.TenTV,
@@ -76,13 +73,13 @@ namespace GIAO_DIEN_CNPM
                                               Đời = u.Doi,
                                               Nghề_Nghiệp = v.TenNN,
                                               Quê_Quán = t.TenQQ,
-                                              Thành_Tích = x.TenTT,
-                                              Cha_Mẹ = z.MaTV2
+                                              //thiếu quan hệ nhen
+                                          
 
                                           };
+*//*
 
-
-            }
+            }*/
         }
 
         private void pcEdit_Click_1(object sender, EventArgs e)
@@ -134,6 +131,18 @@ namespace GIAO_DIEN_CNPM
         {
             Tiep_nhan_tv tiep_Nhan = new Tiep_nhan_tv();
             tiep_Nhan.Show();   
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Tiep_nhan_TT tiep_Nhan_TT = new Tiep_nhan_TT();
+            tiep_Nhan_TT.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Ghi_nhan_KT ghi_Nhan_KT = new Ghi_nhan_KT();
+            ghi_Nhan_KT.Show();
         }
     }
 }

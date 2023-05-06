@@ -41,9 +41,7 @@ namespace GIAO_DIEN_CNPM
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
-
             dang_Nhap.Show();
-
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)

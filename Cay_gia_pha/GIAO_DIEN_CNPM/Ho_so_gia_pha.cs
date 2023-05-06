@@ -56,38 +56,37 @@ namespace GIAO_DIEN_CNPM
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)//xem hồ sơ thành viên
-        {/*
+        {
             using (Gia_PhaDataContext db = new Gia_PhaDataContext())
             {
-                datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
-                *//*datathongtin.DataSource = from u in db.THONG_TIN_TVs
-                                          from v in db.NGHE_NGHIEPs
-                                          from t in db.QUE_QUANs
-                                         
-                                          where u.MaNN == v.maNN
-                                          where u.MaQQ == t.MaQQ
+                /*datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);*/
+                datathongtin.DataSource = from u in db.THONG_TIN_TVs
+                                              // from v in db.QUAN_HEs
+                                              //where u.MaTV == v.MaTV1
                                           select new
                                           {
-                                              Họ_và_Tên_TV_1 = u.TenTV,
+                                              Họ_và_Tên = u.TenTV,
                                               Ngày_Sinh = u.NgayGSinh,
                                               Đời = u.Doi,
-                                              Nghề_Nghiệp = v.TenNN,
-                                              Quê_Quán = t.TenQQ,
+                                              Nghề_Nghiệp = u.NgheNghiep,
+                                              Quê_Quán = u.QueQuan,
+                                              //Cha_Mẹ = u.TenTV 
                                               //thiếu quan hệ nhen
-                                          
-
                                           };
-*//*
 
-            }*/
+
+            }
         }
 
         private void pcEdit_Click_1(object sender, EventArgs e)
         {
-            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
+
+            Chinh_sua chinh_Sua = new Chinh_sua();  
+            chinh_Sua.Show();
+           /* using (Gia_PhaDataContext db = new Gia_PhaDataContext())
             {
                 //lấy thoogn tin
-                string name = datathongtin.SelectedCells[0].OwningRow.Cells["Họ_và_Tên_TV_1"].Value.ToString();
+                string name = datathongtin.SelectedCells[0].OwningRow.Cells["TenTV"].Value.ToString();
                 byte gt = (byte)datathongtin.SelectedCells[0].OwningRow.Cells["Giới_Tính"].Value;
                 //DateTime nsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
                 //DateTime npsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Phát_Sinh"].Value;
@@ -99,6 +98,8 @@ namespace GIAO_DIEN_CNPM
                 THONG_TIN_TV edit = db.THONG_TIN_TVs.Where(p => p.TenTV.Equals(name)).SingleOrDefault();
                 edit.GT = gt;
                 edit.DC = dc;
+                edit.NgheNghiep = nn;
+                edit.QueQuan = qq;
 
                 if (datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value == null)
                 {
@@ -117,14 +118,13 @@ namespace GIAO_DIEN_CNPM
                     edit.NgayGSinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
                 }
 
-                NGHE_NGHIEP edit1 = db.NGHE_NGHIEPs.Where(p => p.TenNN.Equals(nn)).SingleOrDefault();
-                QUE_QUAN edit2 = db.QUE_QUANs.Where(p => p.TenQQ.Equals(qq)).SingleOrDefault();
+
                 //lưu lại data
                 db.SubmitChanges();
                 //load lại
                 pictureBox2_Click(sender, e);
 
-            }
+            }*/
         }
 
         private void pcAdd_Click(object sender, EventArgs e)

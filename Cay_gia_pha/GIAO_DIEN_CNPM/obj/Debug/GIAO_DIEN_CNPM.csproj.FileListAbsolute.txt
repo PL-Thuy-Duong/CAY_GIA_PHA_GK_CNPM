@@ -20,3 +20,7 @@ D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\G
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ghi_nhan_KT.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tiep_nhan_TT.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Chinh_sua.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Quy_dinh.resources

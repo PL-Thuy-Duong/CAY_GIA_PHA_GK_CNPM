@@ -59,11 +59,28 @@
     <Compile Include="Dang_nhap.Designer.cs">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Chinh_sua_tt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chinh_sua_tt.Designer.cs">
+      <DependentUpon>Chinh_sua_tt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ghi_nhan_KT.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ghi_nhan_KT.Designer.cs">
       <DependentUpon>Ghi_nhan_KT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL_Gia_PhaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Quy_dinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quy_dinh.Designer.cs">
+      <DependentUpon>Quy_dinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Tiep_nhan_TT.cs">
       <SubType>Form</SubType>
@@ -122,8 +139,14 @@
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chinh_sua_tt.resx">
+      <DependentUpon>Chinh_sua_tt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ghi_nhan_KT.resx">
       <DependentUpon>Ghi_nhan_KT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quy_dinh.resx">
+      <DependentUpon>Quy_dinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tiep_nhan_TT.resx">
       <DependentUpon>Tiep_nhan_TT.cs</DependentUpon>
@@ -177,6 +200,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QL_Gia_PhaDataSet.xsc">
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_Gia_PhaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_Gia_PhaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_Gia_PhaDataSet.xss">
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\login_icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -256,6 +290,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\achieve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

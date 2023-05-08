@@ -48,6 +48,8 @@
             this.txtmatvcu = new Guna.UI2.WinForms.Guna2TextBox();
             this.txttentvmoi = new Guna.UI2.WinForms.Guna2TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.txtDoi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +61,6 @@
             this.label1.Size = new System.Drawing.Size(313, 35);
             this.label1.TabIndex = 5;
             this.label1.Text = "TIẾP NHẬN THÀNH VIÊN";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -70,7 +71,6 @@
             this.label2.Size = new System.Drawing.Size(144, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Ngày phát sinh";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -121,7 +121,6 @@
             this.label8.Size = new System.Drawing.Size(105, 25);
             this.label8.TabIndex = 12;
             this.label8.Text = "Mã TV mới";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // ngsinhlb
             // 
@@ -150,7 +149,7 @@
             this.txtmatvmoi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtmatvmoi.Name = "txtmatvmoi";
             this.txtmatvmoi.PasswordChar = '\0';
-            this.txtmatvmoi.PlaceholderText = "";
+            this.txtmatvmoi.PlaceholderText = "TV001";
             this.txtmatvmoi.SelectedText = "";
             this.txtmatvmoi.Size = new System.Drawing.Size(225, 35);
             this.txtmatvmoi.TabIndex = 16;
@@ -216,7 +215,7 @@
             this.txtgt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtgt.Name = "txtgt";
             this.txtgt.PasswordChar = '\0';
-            this.txtgt.PlaceholderText = "";
+            this.txtgt.PlaceholderText = "1: Nam 0: Nữ";
             this.txtgt.SelectedText = "";
             this.txtgt.Size = new System.Drawing.Size(225, 35);
             this.txtgt.TabIndex = 19;
@@ -238,7 +237,7 @@
             this.txtngphatsinh.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtngphatsinh.Name = "txtngphatsinh";
             this.txtngphatsinh.PasswordChar = '\0';
-            this.txtngphatsinh.PlaceholderText = "";
+            this.txtngphatsinh.PlaceholderText = "mm/dd/yyyy";
             this.txtngphatsinh.SelectedText = "";
             this.txtngphatsinh.Size = new System.Drawing.Size(225, 35);
             this.txtngphatsinh.TabIndex = 20;
@@ -256,11 +255,11 @@
             this.txtngsinh.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtngsinh.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.txtngsinh.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtngsinh.Location = new System.Drawing.Point(131, 151);
+            this.txtngsinh.Location = new System.Drawing.Point(130, 151);
             this.txtngsinh.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtngsinh.Name = "txtngsinh";
             this.txtngsinh.PasswordChar = '\0';
-            this.txtngsinh.PlaceholderText = "";
+            this.txtngsinh.PlaceholderText = "mm/dd/yyyy";
             this.txtngsinh.SelectedText = "";
             this.txtngsinh.Size = new System.Drawing.Size(225, 35);
             this.txtngsinh.TabIndex = 21;
@@ -282,7 +281,7 @@
             this.txtloaiqhe.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtloaiqhe.Name = "txtloaiqhe";
             this.txtloaiqhe.PasswordChar = '\0';
-            this.txtloaiqhe.PlaceholderText = "";
+            this.txtloaiqhe.PlaceholderText = "Con hoặc Vợ/Chồng";
             this.txtloaiqhe.SelectedText = "";
             this.txtloaiqhe.Size = new System.Drawing.Size(225, 35);
             this.txtloaiqhe.TabIndex = 23;
@@ -331,12 +330,13 @@
             this.txtmatvcu.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtmatvcu.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmatvcu.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+            this.txtmatvcu.ForeColor = System.Drawing.Color.Black;
             this.txtmatvcu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmatvcu.Location = new System.Drawing.Point(517, 66);
             this.txtmatvcu.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtmatvcu.Name = "txtmatvcu";
             this.txtmatvcu.PasswordChar = '\0';
-            this.txtmatvcu.PlaceholderText = "";
+            this.txtmatvcu.PlaceholderText = "Tra cứu tại hồ sơ thành viên";
             this.txtmatvcu.SelectedText = "";
             this.txtmatvcu.Size = new System.Drawing.Size(225, 35);
             this.txtmatvcu.TabIndex = 27;
@@ -358,7 +358,7 @@
             this.txttentvmoi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txttentvmoi.Name = "txttentvmoi";
             this.txttentvmoi.PasswordChar = '\0';
-            this.txttentvmoi.PlaceholderText = "";
+            this.txttentvmoi.PlaceholderText = "Có dấu";
             this.txttentvmoi.SelectedText = "";
             this.txttentvmoi.Size = new System.Drawing.Size(225, 35);
             this.txttentvmoi.TabIndex = 29;
@@ -373,12 +373,46 @@
             this.label10.TabIndex = 28;
             this.label10.Text = "Họ và Tên";
             // 
+            // txtDoi
+            // 
+            this.txtDoi.AutoRoundedCorners = true;
+            this.txtDoi.BorderRadius = 16;
+            this.txtDoi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtDoi.DefaultText = "4";
+            this.txtDoi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtDoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtDoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDoi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtDoi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDoi.Font = new System.Drawing.Font("Segoe UI", 11.25F);
+            this.txtDoi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtDoi.Location = new System.Drawing.Point(517, 201);
+            this.txtDoi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtDoi.Name = "txtDoi";
+            this.txtDoi.PasswordChar = '\0';
+            this.txtDoi.PlaceholderText = "";
+            this.txtDoi.SelectedText = "";
+            this.txtDoi.Size = new System.Drawing.Size(225, 35);
+            this.txtDoi.TabIndex = 31;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(411, 203);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 25);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "Đời";
+            // 
             // Tiep_nhan_tv
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(255)))), ((int)(((byte)(185)))));
             this.ClientSize = new System.Drawing.Size(770, 337);
+            this.Controls.Add(this.txtDoi);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txttentvmoi);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtmatvcu);
@@ -429,5 +463,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txttentvmoi;
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2TextBox txtmatvmoi;
+        private Guna.UI2.WinForms.Guna2TextBox txtDoi;
+        private System.Windows.Forms.Label label3;
     }
 }

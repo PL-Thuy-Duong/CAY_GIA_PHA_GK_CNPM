@@ -19,22 +19,6 @@ namespace GIAO_DIEN_CNPM
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -45,8 +29,10 @@ namespace GIAO_DIEN_CNPM
             Gia_PhaDataContext contex = new Gia_PhaDataContext();
             List<THONG_TIN_TV> dmtv = contex.THONG_TIN_TVs.ToList();
         }
+        
         private void btntiepnhantv_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 Gia_PhaDataContext contex = new Gia_PhaDataContext();
@@ -54,6 +40,7 @@ namespace GIAO_DIEN_CNPM
                 QUAN_HE qh = new QUAN_HE();
                 tv.MaTV = txtmatvmoi.Text;
                 tv.TenTV = txttentvmoi.Text;
+                tv.Doi = int.Parse(txtDoi.Text);
                 DateTime nsinh = DateTime.ParseExact(txtngsinh.Text, "mm/dd/yyyy", null);
                 tv.NgayGSinh = nsinh;
                 NumberStyles style;
@@ -64,18 +51,18 @@ namespace GIAO_DIEN_CNPM
                 //tv.NgayPSinh = DateTime.Parse(txtngphatsinh.Text);
                 DateTime ngps = DateTime.ParseExact(txtngphatsinh.Text, "mm/dd/yyyy", null);
                 tv.NgayPSinh = ngps;
-                /* qh.MaTV1 = txtmatvmoi.Text;
-                 qh.QuanHe = txtloaiqhe.Text;
-                 qh.MaTV2 = txtmatvcu.Text;*/
+                qh.MaTV1 = txtmatvmoi.Text;
+                qh.QuanHe = txtloaiqhe.Text;
+                qh.MaTV2 = txtmatvcu.Text;
+                    contex.THONG_TIN_TVs.InsertOnSubmit(tv);
+                    contex.SubmitChanges();
 
-                contex.THONG_TIN_TVs.InsertOnSubmit(tv);
-                contex.SubmitChanges();
+                    contex.QUAN_HEs.InsertOnSubmit(qh);
+                    contex.SubmitChanges();
 
-               /* contex.QUAN_HEs.InsertOnSubmit(qh);
-                contex.SubmitChanges();*/
-
-                hienthithanhvienlistbox();
-                MessageBox.Show("Đã lưu thành công thành viên mới!");
+                    hienthithanhvienlistbox();
+                    MessageBox.Show("Đã lưu thành công thành viên mới!");
+                    this.Close();
             }
             catch (Exception ex)//tbao khi lỗi dữ liệu
             {
@@ -83,7 +70,6 @@ namespace GIAO_DIEN_CNPM
             }
         }
 
-       
     }
 }
 

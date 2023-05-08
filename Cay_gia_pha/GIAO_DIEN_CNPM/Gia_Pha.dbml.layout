@@ -2,55 +2,55 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Gia_Pha">
   <DataContextMoniker Name="/Gia_PhaDataContext" />
   <nestedChildShapes>
-    <classShape Id="300e06f6-7927-4462-a2c3-d89ad3583e83" absoluteBounds="6.25, 3.875, 2, 1.3862939453125">
-      <DataClassMoniker Name="/Gia_PhaDataContext/THANH_TICH" />
-      <nestedChildShapes>
-        <elementListCompartment Id="6aeeb2bb-476e-4bca-a3f3-85cac3a87368" absoluteBounds="6.2650000000000006, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </classShape>
-    <classShape Id="9a55868c-14b5-438f-b008-3d0c647366b5" absoluteBounds="0.875, 2.125, 2, 1.1939925130208344">
+    <classShape Id="9a55868c-14b5-438f-b008-3d0c647366b5" absoluteBounds="1.625, 2.25, 2, 1.1939925130208344">
       <DataClassMoniker Name="/Gia_PhaDataContext/DANG_NHAP_TK" />
       <nestedChildShapes>
-        <elementListCompartment Id="c5de97f5-d3ff-428f-beec-4e78a388c633" absoluteBounds="0.88999999999999968, 2.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="c5de97f5-d3ff-428f-beec-4e78a388c633" absoluteBounds="1.6399999999999997, 2.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="e73f2271-ffe7-4ce5-9b11-4adc1ff89227" absoluteBounds="1, 3.5, 2, 2.7324039713541666">
-      <DataClassMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV" />
-      <nestedChildShapes>
-        <elementListCompartment Id="cf964d9e-3ca1-4edf-a3e2-e3d498792aef" absoluteBounds="1.0150000000000001, 3.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
-      </nestedChildShapes>
-    </classShape>
-    <associationConnector edgePoints="[(6.25 : 4.21875); (5.48958333333333 : 4.21875 : JumpStart); (5.32291666666667 : 4.21875 : JumpEnd); (3 : 4.21875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/Gia_PhaDataContext/THANH_TICH/THANH_TICH_THONG_TIN_TV" />
-      <nodes>
-        <classShapeMoniker Id="300e06f6-7927-4462-a2c3-d89ad3583e83" />
-        <classShapeMoniker Id="e73f2271-ffe7-4ce5-9b11-4adc1ff89227" />
-      </nodes>
-    </associationConnector>
-    <classShape Id="b582e50d-c454-4601-bdf5-264c44fb9882" absoluteBounds="4.625, 1.875, 2, 1.5785953776041666">
+    <classShape Id="b582e50d-c454-4601-bdf5-264c44fb9882" absoluteBounds="4.875, 2.125, 2, 1.5785953776041666">
       <DataClassMoniker Name="/Gia_PhaDataContext/NN_DD_KET_THUC" />
       <nestedChildShapes>
-        <elementListCompartment Id="fc649499-6eaa-4610-a198-ae0ceadbc324" absoluteBounds="4.64, 2.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="fc649499-6eaa-4610-a198-ae0ceadbc324" absoluteBounds="4.89, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3 : 5.77809895833333); (5.40625 : 5.77809895833333); (5.40625 : 3.45359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV/THONG_TIN_TV_NN_DD_KET_THUC" />
-      <nodes>
-        <classShapeMoniker Id="e73f2271-ffe7-4ce5-9b11-4adc1ff89227" />
-        <classShapeMoniker Id="b582e50d-c454-4601-bdf5-264c44fb9882" />
-      </nodes>
-    </associationConnector>
     <classShape Id="8a3aa908-17e1-47e3-a1b3-50ad5663d6c2" absoluteBounds="4.75, 6.25, 2, 1.3862939453124996">
       <DataClassMoniker Name="/Gia_PhaDataContext/QUAN_HE" />
       <nestedChildShapes>
         <elementListCompartment Id="8a8225d6-e9dc-4495-95f9-c135dc4bbda2" absoluteBounds="4.765, 6.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(4.75 : 6.94314697265625); (2 : 6.94314697265625); (2 : 6.23240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/Gia_PhaDataContext/QUAN_HE/QUAN_HE_THONG_TIN_TV" />
+    <classShape Id="daed25df-f620-4470-a08f-2fa04bacd0b9" absoluteBounds="4.625, 4.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/Gia_PhaDataContext/THANH_TICH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="699c180a-5f28-436b-84be-7e1f4aa42fa0" absoluteBounds="4.64, 4.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5cf3238e-04f9-427a-a95b-b91c7ab296bd" absoluteBounds="1.375, 4.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="873dbc3d-3892-4f07-ab61-6f6ccfa8031e" absoluteBounds="1.3899999999999997, 5.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.46875 : 4.625); (1.46875 : 3.6050439453125); (4.875 : 3.6050439453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV/THONG_TIN_TV_NN_DD_KET_THUC" />
       <nodes>
+        <classShapeMoniker Id="5cf3238e-04f9-427a-a95b-b91c7ab296bd" />
+        <classShapeMoniker Id="b582e50d-c454-4601-bdf5-264c44fb9882" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 6.80370198567708); (4.75 : 6.80370198567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV/THONG_TIN_TV_QUAN_HE" />
+      <nodes>
+        <classShapeMoniker Id="5cf3238e-04f9-427a-a95b-b91c7ab296bd" />
         <classShapeMoniker Id="8a3aa908-17e1-47e3-a1b3-50ad5663d6c2" />
-        <classShapeMoniker Id="e73f2271-ffe7-4ce5-9b11-4adc1ff89227" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 5.19314697265625); (4.625 : 5.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Gia_PhaDataContext/THONG_TIN_TV/THONG_TIN_TV_THANH_TICH" />
+      <nodes>
+        <classShapeMoniker Id="5cf3238e-04f9-427a-a95b-b91c7ab296bd" />
+        <classShapeMoniker Id="daed25df-f620-4470-a08f-2fa04bacd0b9" />
       </nodes>
     </associationConnector>
   </nestedChildShapes>

@@ -64,9 +64,11 @@ namespace GIAO_DIEN_CNPM
                 string ma = txtmaTV.Text;
                 Gia_PhaDataContext contex = new Gia_PhaDataContext();
                 THONG_TIN_TV tt = contex.THONG_TIN_TVs.FirstOrDefault(x => x.MaTV == ma);
+                THANH_TICH ttich = new THANH_TICH();
                 tt.QueQuan = txtqq.Text;
                 tt.NgheNghiep = txtnn.Text;
                 tt.ThanhTich = txttt.Text;
+                ttich.TenTT = txttt.Text;
                 tt.TenTV = txtten.Text;
                 contex.SubmitChanges();
                 MessageBox.Show("Chỉnh sửa thành công");
@@ -95,7 +97,7 @@ namespace GIAO_DIEN_CNPM
                 Gia_PhaDataContext contex = new Gia_PhaDataContext();
                 string ma = txtmaTV.Text;
                 THONG_TIN_TV tt = contex.THONG_TIN_TVs.FirstOrDefault(x => x.MaTV == ma);
-
+                THANH_TICH tHANH_TICH = contex.THANH_TICHes.FirstOrDefault(x => x.MaTVien == ma);
                 
                 if (tt != null)
                 {
@@ -105,6 +107,8 @@ namespace GIAO_DIEN_CNPM
 
                     }
                     contex.THONG_TIN_TVs.DeleteOnSubmit(tt);
+
+                    contex.THANH_TICHes.DeleteOnSubmit(tHANH_TICH);
                     contex.SubmitChanges();
                     
                     MessageBox.Show("Xóa thành công");

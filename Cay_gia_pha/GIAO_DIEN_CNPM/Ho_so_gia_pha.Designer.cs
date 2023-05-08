@@ -83,6 +83,7 @@
             this.txtTimKiem.SelectedText = "";
             this.txtTimKiem.Size = new System.Drawing.Size(231, 28);
             this.txtTimKiem.TabIndex = 11;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             this.txtTimKiem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_keypress);
             // 
             // pcTimKiem
@@ -167,11 +168,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(66, 366);
+            this.label6.Location = new System.Drawing.Point(71, 366);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 17);
+            this.label6.Size = new System.Drawing.Size(38, 17);
             this.label6.TabIndex = 19;
-            this.label6.Text = "Xem DS";
+            this.label6.Text = "Load";
             // 
             // pictureBox1
             // 
@@ -241,6 +242,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ho_so_gia_pha";
             this.Text = "Ho_so_gia_pha";
+            this.Load += new System.EventHandler(this.Ho_so_gia_pha_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datathongtin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcTimKiem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcEdit)).EndInit();

@@ -46,8 +46,13 @@ namespace GIAO_DIEN_CNPM
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            dang_Nhap.Show();
+            DialogResult dg = MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dg == DialogResult.OK)
+            {
+                this.Close();
+                dang_Nhap.Show();
+            }
+
         }
 
         private void pcAboutus_Click(object sender, EventArgs e)

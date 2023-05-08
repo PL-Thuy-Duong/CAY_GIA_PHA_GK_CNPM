@@ -21,7 +21,6 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
-        <Top>0.01389in</Top>
         <Left>1.33681in</Left>
         <Height>0.32986in</Height>
         <Width>4.21875in</Width>
@@ -123,7 +122,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!TenTT.Value</Value>
+                              <Value>=Fields!TenTT.Value.Equals(Fields!MaTVien.Value)</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -172,6 +171,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>

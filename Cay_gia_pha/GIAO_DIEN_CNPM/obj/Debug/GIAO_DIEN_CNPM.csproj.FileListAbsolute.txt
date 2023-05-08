@@ -76,4 +76,6 @@ D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\G
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Bao_cao.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.frmBaoCao.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\So_luong_TT.rdlc
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Tang_giam_TV.rdlc

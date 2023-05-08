@@ -98,10 +98,10 @@
     <Compile Include="Gia_Pha.cs">
       <DependentUpon>Gia_Pha.dbml</DependentUpon>
     </Compile>
-    <Compile Include="QL_Gia_PhaDataSet.Designer.cs">
+    <Compile Include="tblThanhTich.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+      <DependentUpon>tblThanhTich.xsd</DependentUpon>
     </Compile>
     <Compile Include="Quy_dinh.cs">
       <SubType>Form</SubType>
@@ -179,8 +179,12 @@
     <EmbeddedResource Include="Quy_dinh.resx">
       <DependentUpon>Quy_dinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="So_luong_TT.rdlc" />
-    <EmbeddedResource Include="Tang_giam_TV.rdlc" />
+    <EmbeddedResource Include="So_luong_TT.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tang_giam_TV.rdlc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tiep_nhan_TT.resx">
       <DependentUpon>Tiep_nhan_TT.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,16 +237,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="QL_Gia_PhaDataSet.xsc">
-      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    <None Include="tblThanhTich.xsc">
+      <DependentUpon>tblThanhTich.xsd</DependentUpon>
     </None>
-    <None Include="QL_Gia_PhaDataSet.xsd">
+    <None Include="tblThanhTich.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QL_Gia_PhaDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>tblThanhTich.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QL_Gia_PhaDataSet.xss">
-      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    <None Include="tblThanhTich.xss">
+      <DependentUpon>tblThanhTich.xsd</DependentUpon>
     </None>
     <None Include="Resources\login_icon.png" />
   </ItemGroup>

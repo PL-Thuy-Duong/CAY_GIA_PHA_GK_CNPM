@@ -38,48 +38,60 @@ namespace GIAO_DIEN_CNPM
             childForm.BringToFront();
             childForm.Show();
         }
-
         private void exit_Click(object sender, EventArgs e)
         {
             this.Close();
             dang_Nhap.Show();
-
         }
 
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            dang_Nhap.Show();
+            DialogResult dg = MessageBox.Show("Bạn có muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (dg == DialogResult.OK)
+            {
+                this.Close();
+                dang_Nhap.Show();
+            }
+
         }
 
         private void pcAboutus_Click(object sender, EventArgs e)
         {
             //dua form thong tin vào panelmain
             Thong_tin thong_Tin = new Thong_tin();
-            thong_Tin.TopLevel = false;
-            panelmain.Controls.Add(thong_Tin);
-            thong_Tin.Dock = DockStyle.Fill;
             OpenChildForm(thong_Tin);
         }
 
         private void pcHelp_Click(object sender, EventArgs e)
         {
             Tro_giup tro_Giup = new Tro_giup();
-            tro_Giup.TopLevel = false;
-            panelmain.Controls.Add(tro_Giup);
-            tro_Giup.Dock = DockStyle.Fill;
             OpenChildForm(tro_Giup);
         }
 
 
         private void pcTimkiem_Click(object sender, EventArgs e)
         {
+           
             Ho_so_gia_pha frm2 = new Ho_so_gia_pha();
-            frm2.TopLevel = false;
-            panelmain.Controls.Add(frm2);
-            frm2.Dock = DockStyle.Fill;
             OpenChildForm(frm2);
-            
+        }
+
+        private void pcLaw_Click(object sender, EventArgs e)
+        {
+            Quy_dinh qd = new Quy_dinh();
+            OpenChildForm(qd);
+        }
+
+     
+        private void panelmain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            Bao_cao bc = new Bao_cao();
+            bc.Show();
         }
     }
 }

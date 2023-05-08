@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -18,30 +19,33 @@ namespace GIAO_DIEN_CNPM
             InitializeComponent();
         }
 
-        /*        private void pcTimKiem_Click_1(object sender, EventArgs e)
-                {
-                    using (Gia_PhaDataContext db = new Gia_PhaDataContext())
-                    {
-                        datathongtin.DataSource = db.THONG_TIN_TVs.Where(p => p.TenTV.Equals(txtTimKiem));
-                    }
-                } 
-
-
-        */
-        private void pcDelete_Click_1(object sender, EventArgs e)
+      
+        private void loadHoSoGiaPha()
         {
-            //lấy ra cái id cột khi bấm vào dòng muốn xóa
             using (Gia_PhaDataContext db = new Gia_PhaDataContext())
             {
-                string id = datathongtin.SelectedCells[0].OwningRow.Cells["MaTV"].Value.ToString();
-                THONG_TIN_TV delete = db.THONG_TIN_TVs.Where(p => p.MaTV.Equals(id)).SingleOrDefault();
-                db.THONG_TIN_TVs.DeleteOnSubmit(delete);
-                //lưu lại data
-                db.SubmitChanges();
-                //load lại
-                pictureBox2_Click(sender, e);
+                //datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
+                datathongtin.DataSource = from u in db.THONG_TIN_TVs
+                                              // from v in db.QUAN_HEs
+                                              //where u.MaTV == v.MaTV1
+                                              
+                                          select new
+                                          {
+                                              Họ_và_Tên = u.TenTV,
+                                              Ngày_Sinh = u.NgayGSinh,
+                                              Đời = u.Doi,
+                                              Nghề_Nghiệp = u.NgheNghiep,
+                                              Quê_Quán = u.QueQuan,
+                                              //Cha_Mẹ = u.TenTV 
+                                              //thiếu quan hệ nhen
+                                          };
+
+
             }
         }
+
+
+
         private void txtSearch_keypress(object sender, KeyPressEventArgs e)
         {
         }
@@ -49,91 +53,88 @@ namespace GIAO_DIEN_CNPM
 
         private void pcTimKiem_Click(object sender, EventArgs e)
         {
-            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
+           /* using (Gia_PhaDataContext db = new Gia_PhaDataContext())
             {
-                datathongtin.DataSource = db.THONG_TIN_TVs.Where(p => p.Doi.Equals(txtTimKiem));
-            }
+                datathongtin.DataSource = db.THONG_TIN_TVs.Where(p => p.Doi.Equals(txtTimKiem.Text));
+            }*/
+
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)//xem hồ sơ thành viên
-        {
-            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
-            {
-                //datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
-                datathongtin.DataSource = from u in db.THONG_TIN_TVs
-                                          from v in db.NGHE_NGHIEPs
-                                          from t in db.QUE_QUANs
-                                          from z in db.QUAN_HEs
-                                          from x in db.THANH_TICHes
-                                          where u.MaQQ == t.MaQQ
-                                          where u.MaNN == v.maNN
-                                          where u.MaTV == z.MaTV1
-                                          where x.MaTT == u.MaTT
-                                          select new
-                                          {
-                                              Họ_và_Tên_TV_1 = u.TenTV,
-                                              Ngày_Sinh = u.NgayGSinh,
-                                              Đời = u.Doi,
-                                              Nghề_Nghiệp = v.TenNN,
-                                              Quê_Quán = t.TenQQ,
-                                              Thành_Tích = x.TenTT,
-                                              Cha_Mẹ = z.MaTV2
-
-                                          };
-
-
-            }
-        }
+       
 
         private void pcEdit_Click_1(object sender, EventArgs e)
         {
-            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
-            {
-                //lấy thoogn tin
-                string name = datathongtin.SelectedCells[0].OwningRow.Cells["Họ_và_Tên_TV_1"].Value.ToString();
-                byte gt = (byte)datathongtin.SelectedCells[0].OwningRow.Cells["Giới_Tính"].Value;
-                //DateTime nsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
-                //DateTime npsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Phát_Sinh"].Value;
-                string dc = datathongtin.SelectedCells[0].OwningRow.Cells["Địa_Chỉ"].Value.ToString();
-                string qq = datathongtin.SelectedCells[0].OwningRow.Cells["Quê_Quán"].Value.ToString();
-                string nn = datathongtin.SelectedCells[0].OwningRow.Cells["Nghề_Nghiệp"].Value.ToString();
 
-                //cập nhập lại thong tin
-                THONG_TIN_TV edit = db.THONG_TIN_TVs.Where(p => p.TenTV.Equals(name)).SingleOrDefault();
-                edit.GT = gt;
-                edit.DC = dc;
-
-                if (datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value == null)
-                {
-                    edit.NgayPSinh = null;
-                }
-                else
-                {
-                    edit.NgayPSinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Phát_Sinh"].Value;
-                }
-                if (datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value == null)
-                {
-                    edit.NgayGSinh = null;
-                }
-                else
-                {
-                    edit.NgayGSinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
-                }
-
-                NGHE_NGHIEP edit1 = db.NGHE_NGHIEPs.Where(p => p.TenNN.Equals(nn)).SingleOrDefault();
-                QUE_QUAN edit2 = db.QUE_QUANs.Where(p => p.TenQQ.Equals(qq)).SingleOrDefault();
-                //lưu lại data
-                db.SubmitChanges();
-                //load lại
-                pictureBox2_Click(sender, e);
-
-            }
+            Chinh_sua chinh_Sua = new Chinh_sua();  
+            chinh_Sua.Show();
+          
         }
 
         private void pcAdd_Click(object sender, EventArgs e)
         {
             Tiep_nhan_tv tiep_Nhan = new Tiep_nhan_tv();
             tiep_Nhan.Show();   
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Tiep_nhan_TT tiep_Nhan_TT = new Tiep_nhan_TT();
+            tiep_Nhan_TT.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Ghi_nhan_KT ghi_Nhan_KT = new Ghi_nhan_KT();
+            ghi_Nhan_KT.Show();
+        }
+
+        
+
+        private void Ho_so_gia_pha_Load(object sender, EventArgs e)
+        {
+            loadHoSoGiaPha();
+
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+            //sử dụng thuộc tính RowFilter để tìm kiếm theo tên "Name"
+            /*string rowFilter = string.Format("{0} like '{1}'", "TenTV", "*" + txtTimKiem.Text + "*");
+            (datathongtin.DataSource as DataTable).DefaultView.RowFilter = rowFilter;*/
+            var searchValue = txtTimKiem.Text.Trim();
+            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
+            {
+                //datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
+                datathongtin.DataSource = from u in db.THONG_TIN_TVs
+                                              // from v in db.QUAN_HEs
+                                              //where u.MaTV == v.MaTV1
+                                          
+                                          where u.TenTV.StartsWith( searchValue)
+
+                                          select new
+                                          {
+                                              Họ_và_Tên = u.TenTV,
+                                              Ngày_Sinh = u.NgayGSinh,
+                                              Đời = u.Doi,
+                                              Nghề_Nghiệp = u.NgheNghiep,
+                                              Quê_Quán = u.QueQuan,
+                                              //Cha_Mẹ = u.TenTV 
+                                              //thiếu quan hệ nhen
+                                          };
+
+
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            loadHoSoGiaPha();
+        }
+
+        private void datathongtin_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

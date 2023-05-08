@@ -1,66 +1,79 @@
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe.config
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\Guna.UI2.dll
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.AssemblyReference.cache
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.SuggestedBindingRedirects.cache
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.resources
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Properties.Resources.resources
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.GenerateResource.cache
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CoreCompileInputs.cache
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CopyComplete
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.exe
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.aa.resources
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
-D:\HK2\Bai tap CNPM\Cay gia pha\GIAO_DIEN_CNPM\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_nhap.resources
-<<<<<<< HEAD
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe.config
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Guna.UI2.dll
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.AssemblyReference.cache
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.SuggestedBindingRedirects.cache
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_nhap.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Properties.Resources.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.aa.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.GenerateResource.cache
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CoreCompileInputs.cache
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CopyComplete
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.exe
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb
-=======
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe.config
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Guna.UI2.dll
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.AssemblyReference.cache
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.SuggestedBindingRedirects.cache
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_ki.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_nhap.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tiep_nhan_tv.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ho_so_gia_pha.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Thong_tin.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chinh.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Properties.Resources.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tro_giup.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chu.aa.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.GenerateResource.cache
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CoreCompileInputs.cache
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.exe
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb
->>>>>>> 0fc8b2bdacab6c42c34233c8a78cf2554cfbb22c
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Dang_ki.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Trang_chinh.resources
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe.config
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.exe
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Guna.UI2.dll
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ho_so_gia_pha.resources
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\aa\GIAO_DIEN_CNPM.resources.dll
 D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.csproj.CopyComplete
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ho_so_gia_pha.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Thong_tin.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tro_giup.resources
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Thong_tin.resources
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tro_giup.resources
-D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tiep_nhan_tv.resources
-D:\NMCNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tiep_nhan_tv.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.exe
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.pdb
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\GIAO_DIEN_CNPM.pdb
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\aa\GIAO_DIEN_CNPM.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Ghi_nhan_KT.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Tiep_nhan_TT.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Chinh_sua.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Quy_dinh.resources
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\EnvDTE.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\stdole.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\HK2\Bai_tap_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\CAY_GIA_PHA_GK_CNPM\Cay_gia_pha\GIAO_DIEN_CNPM\obj\Debug\GIAO_DIEN_CNPM.Bao_cao.resources

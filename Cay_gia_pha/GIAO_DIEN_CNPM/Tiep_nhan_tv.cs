@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace GIAO_DIEN_CNPM
@@ -17,55 +19,57 @@ namespace GIAO_DIEN_CNPM
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
+            this.Close();
 
         }
-
-        private void btKtraDN_Click(object sender, EventArgs e)
+        private void hienthithanhvienlistbox()
         {
-            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
+            Gia_PhaDataContext contex = new Gia_PhaDataContext();
+            List<THONG_TIN_TV> dmtv = contex.THONG_TIN_TVs.ToList();
+        }
+        
+        private void btntiepnhantv_Click(object sender, EventArgs e)
+        {
+            
+            try
             {
-                
-               /* //lấy thoogn tin
-                string name = datathongtin.SelectedCells[0].OwningRow.Cells["Họ_và_Tên_TV_1"].Value.ToString();
-                byte gt = (byte)datathongtin.SelectedCells[0].OwningRow.Cells["Giới_Tính"].Value;
-                //DateTime nsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
-                //DateTime npsinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Phát_Sinh"].Value;
-                string dc = datathongtin.SelectedCells[0].OwningRow.Cells["Địa_Chỉ"].Value.ToString();
-                string qq = datathongtin.SelectedCells[0].OwningRow.Cells["Quê_Quán"].Value.ToString();
-                string nn = datathongtin.SelectedCells[0].OwningRow.Cells["Nghề_Nghiệp"].Value.ToString();
-                //cập nhập lại thong tin
-                THONG_TIN_TV edit = db.THONG_TIN_TVs.Where(p => p.TenTV.Equals(name)).SingleOrDefault();
-                edit.GT = gt;
-                edit.DC = dc;
+                Gia_PhaDataContext contex = new Gia_PhaDataContext();
+                THONG_TIN_TV tv = new THONG_TIN_TV();
+                QUAN_HE qh = new QUAN_HE();
+                tv.MaTV = txtmatvmoi.Text;
+                tv.TenTV = txttentvmoi.Text;
+                tv.Doi = int.Parse(txtDoi.Text);
+                DateTime nsinh = DateTime.ParseExact(txtngsinh.Text, "mm/dd/yyyy", null);
+                tv.NgayGSinh = nsinh;
+                NumberStyles style;
+                style = NumberStyles.None;
+                tv.GT = Byte.Parse(txtgt.Text, style);
+                tv.QueQuan = txtqquan.Text;
+                tv.DC = txtdc.Text;
+                //tv.NgayPSinh = DateTime.Parse(txtngphatsinh.Text);
+                DateTime ngps = DateTime.ParseExact(txtngphatsinh.Text, "mm/dd/yyyy", null);
+                tv.NgayPSinh = ngps;
+                qh.MaTV1 = txtmatvmoi.Text;
+                qh.QuanHe = txtloaiqhe.Text;
+                qh.MaTV2 = txtmatvcu.Text;
+                    contex.THONG_TIN_TVs.InsertOnSubmit(tv);
+                    contex.SubmitChanges();
 
-                if (datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value == null)
-                {
-                    edit.NgayPSinh = null;
-                }
-                else
-                {
-                    edit.NgayPSinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Phát_Sinh"].Value;
-                }
-                if (datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value == null)
-                {
-                    edit.NgayGSinh = null;
-                }
-                else
-                {
-                    edit.NgayGSinh = (DateTime)datathongtin.SelectedCells[0].OwningRow.Cells["Ngày_Sinh"].Value;
-                }
+                    contex.QUAN_HEs.InsertOnSubmit(qh);
+                    contex.SubmitChanges();
 
-                NGHE_NGHIEP edit1 = db.NGHE_NGHIEPs.Where(p => p.TenNN.Equals(nn)).SingleOrDefault();
-                QUE_QUAN edit2 = db.QUE_QUANs.Where(p => p.TenQQ.Equals(qq)).SingleOrDefault();
-                //lưu lại data
-                db.SubmitChanges();
-                //load lại
-                pictureBox2_Click(sender, e);
-*/
+                    hienthithanhvienlistbox();
+                    MessageBox.Show("Đã lưu thành công thành viên mới!");
+                    this.Close();
+            }
+            catch (Exception ex)//tbao khi lỗi dữ liệu
+            {
+                MessageBox.Show(ex.Message);
             }
         }
+
     }
 }
 

@@ -28,7 +28,7 @@ namespace GIAO_DIEN_CNPM
                 datathongtin.DataSource = from u in db.THONG_TIN_TVs
                                               // from v in db.QUAN_HEs
                                               //where u.MaTV == v.MaTV1
-
+                                              
                                           select new
                                           {
                                               Họ_và_Tên = u.TenTV,
@@ -57,6 +57,7 @@ namespace GIAO_DIEN_CNPM
             {
                 datathongtin.DataSource = db.THONG_TIN_TVs.Where(p => p.Doi.Equals(txtTimKiem.Text));
             }*/
+
         }
 
        
@@ -99,13 +100,41 @@ namespace GIAO_DIEN_CNPM
         {
 
             //sử dụng thuộc tính RowFilter để tìm kiếm theo tên "Name"
-            string rowFilter = string.Format("{0} like '{1}'", "TenTV", "*" + txtTimKiem.Text + "*");
-            (datathongtin.DataSource as DataTable).DefaultView.RowFilter = rowFilter;
+            /*string rowFilter = string.Format("{0} like '{1}'", "TenTV", "*" + txtTimKiem.Text + "*");
+            (datathongtin.DataSource as DataTable).DefaultView.RowFilter = rowFilter;*/
+            var searchValue = txtTimKiem.Text.Trim();
+            using (Gia_PhaDataContext db = new Gia_PhaDataContext())
+            {
+                //datathongtin.DataSource = db.THONG_TIN_TVs.Select(p => p);
+                datathongtin.DataSource = from u in db.THONG_TIN_TVs
+                                              // from v in db.QUAN_HEs
+                                              //where u.MaTV == v.MaTV1
+                                          
+                                          where u.TenTV.StartsWith( searchValue)
+
+                                          select new
+                                          {
+                                              Họ_và_Tên = u.TenTV,
+                                              Ngày_Sinh = u.NgayGSinh,
+                                              Đời = u.Doi,
+                                              Nghề_Nghiệp = u.NgheNghiep,
+                                              Quê_Quán = u.QueQuan,
+                                              //Cha_Mẹ = u.TenTV 
+                                              //thiếu quan hệ nhen
+                                          };
+
+
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             loadHoSoGiaPha();
+        }
+
+        private void datathongtin_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -61,6 +61,7 @@
             this.datathongtin.Name = "datathongtin";
             this.datathongtin.Size = new System.Drawing.Size(799, 326);
             this.datathongtin.TabIndex = 0;
+            this.datathongtin.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datathongtin_CellContentClick);
             // 
             // txtTimKiem
             // 
@@ -88,6 +89,7 @@
             // 
             // pcTimKiem
             // 
+            this.pcTimKiem.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.pcTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pcTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("pcTimKiem.Image")));
             this.pcTimKiem.Location = new System.Drawing.Point(381, 332);

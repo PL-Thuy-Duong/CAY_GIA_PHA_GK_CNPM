@@ -128,4 +128,23 @@
         qsIjkCQR7KCkoN9DtmTixwB4A2/P/nr4rqeQAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Chào mừng bạn đến với Phần mềm Quản lý Gia phả của chúng tôi
+Hệ thống của chúng tôi với giao diện trực quan, rõ ràng, dễ nhìn, các bạn có thể sẽ không gặp quá nhiều rắc rối trong việc hiểu và sử dụng phần mềm. Nhưng nếu bạn cần sự trợ giúp, thì đây là hướng dẫn sử dụng phần mềm của chúng tôi. 
+                                       HƯỚNG DẪN SỬ DỤNG PHẦN MỀM
+       Sau khi đăng nhập tài khoản vào phần mềm, bạn sẽ thấy giao diện chính của phần mềm. 
+       + Hồ sơ thành viên: hiển thị danh sách thông tin của thành viên trong gia phả.  
+       + Thông tin: hiển thị thông tin về chúng tôi và phần mềm.
+       + Báo cáo: Tổng kết lại tập báo cáo và in báo cáo.
+       + Thoát: Thoát ra trang đăng nhập tài khoản của phần mềm.
+       + Ở thanh Tìm kiếm, bạn sẽ có thể tìm kiếm tên của thành viên trong gia phả, điều này sẽ giúp tiết kiệm thời gian cho bạn. Lưu ý: tìm kiếm theo họ tên thành viên.
+       + Chỉnh sửa: khi bạn muốn sửa/xóa một thành viên, hãy nhấn vô dòng tên của thành viên trong danh sách nằm ở phía bên trái giao diện, sau đó chỉnh sửa thông tin thành viên nếu bạn muốn và nhấn nút Sửa; hoặc nếu muốn xóa thành viên, nhấn nút Xoá.
+       + Thành tích: cho phép bạn ghi thông tin thành tích của thành viên nào đó bằng cách điền mã thành viên, tên thành viên, tên thành tích ngày phát sinh thành tích và sau đó ấn nút Tiếp nhận, đồng thời hiển thị danh sách những thành tích của các thành viên khác đã được cập nhật trước đó.
+       + Người mất: cho phép bạn cập nhật thông tin người mất bằng cách điền đầy đủ thông tin sau đó nhấn nút Tiếp nh, và hiển thị thông qua danh sách ở phía cạnh dưới của giao diện.
+       + Thêm TV: cho phép bạn thêm thành viên, sau khi điền đầy đủ thông tin của thành viên, nhấn phim xác nhận để thông tin thành viên đượu lưu lại trong gia phả.
+        Và đó là cách sử dụng phần mềm Quản lý gia phả của chúng tôi.
+        Chúc các bạn có một trải nghiệm vui vẻ và hài lòng về phần mềm của chúng tôi.
+        Trân trọng./.
+</value>
+  </data>
 </root>

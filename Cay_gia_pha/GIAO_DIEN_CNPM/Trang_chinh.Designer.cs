@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Trang_chinh));
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label6 = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pcLaw = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -46,7 +47,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pcTimkiem = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelmain = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLaw)).BeginInit();
@@ -87,6 +87,16 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(799, 104);
             this.guna2GradientPanel1.TabIndex = 3;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(562, 77);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 17);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "BÁO CÁO";
+            // 
             // guna2PictureBox3
             // 
             this.guna2PictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -98,12 +108,13 @@
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 21;
             this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(481, 78);
+            this.label5.Location = new System.Drawing.Point(485, 78);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 17);
             this.label5.TabIndex = 20;
@@ -114,7 +125,7 @@
             this.pcLaw.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcLaw.Image = ((System.Drawing.Image)(resources.GetObject("pcLaw.Image")));
             this.pcLaw.ImageRotate = 0F;
-            this.pcLaw.Location = new System.Drawing.Point(479, 22);
+            this.pcLaw.Location = new System.Drawing.Point(486, 22);
             this.pcLaw.Name = "pcLaw";
             this.pcLaw.Size = new System.Drawing.Size(64, 61);
             this.pcLaw.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -234,11 +245,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(402, 79);
+            this.label3.Location = new System.Drawing.Point(394, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 17);
+            this.label3.Size = new System.Drawing.Size(89, 17);
             this.label3.TabIndex = 12;
-            this.label3.Text = "TRỢ GIÚP";
+            this.label3.Text = "HƯỚNG DẪN";
             // 
             // label2
             // 
@@ -272,16 +283,6 @@
             this.panelmain.Size = new System.Drawing.Size(799, 393);
             this.panelmain.TabIndex = 7;
             this.panelmain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelmain_Paint);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(562, 77);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 17);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "BÁO CÁO";
             // 
             // Trang_chinh
             // 
@@ -328,9 +329,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelmain;
-        private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2PictureBox pcLaw;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2PictureBox pcLaw;
     }
 }

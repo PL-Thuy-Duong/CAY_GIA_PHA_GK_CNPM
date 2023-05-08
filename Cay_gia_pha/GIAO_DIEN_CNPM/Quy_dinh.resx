@@ -117,4 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Gia phả là nơi để lưu giữ lại những thông tin thành viên của họ tộc từ tên, tuổi, vai trò trong dòng họ,... Đây được coi là gốc rễ, cội nguồn và cũng chính là cơ sở để tiếp nối tưởng nhớ, là điểm tựa tinh thần cho thế hệ con cháu hiện tại từ những hình ảnh quá khứ.
+
++ Về các thành viên trong gia phả
+Họ và tên đầy đủ là gì?
+Giới tính?
+Thuộc đời thứ mấy?
+Ngày, tháng, năm sinh?
+Ngày, tháng, năm mất?
+Mộ táng tại đâu? Nguyên nhân mất là gì?
+Ngày, tháng, năm mất?
+Đạt được thành tích nào không?
+Địa chỉ tạm trú và địa chỉ quê quán?
+Cha mẹ là ai?
+
++ Về quan hệ giữa các thành viên
+Chỉ cần ghi rõ họ và tên</value>
+  </data>
 </root>

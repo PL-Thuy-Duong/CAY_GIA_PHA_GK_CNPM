@@ -78,12 +78,20 @@ namespace GIAO_DIEN_CNPM
 
         private void pcLaw_Click(object sender, EventArgs e)
         {
-           
+            Quy_dinh qd = new Quy_dinh();
+            OpenChildForm(qd);
         }
 
+     
         private void panelmain_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            Bao_cao bc = new Bao_cao();
+            bc.Show();
         }
     }
 }

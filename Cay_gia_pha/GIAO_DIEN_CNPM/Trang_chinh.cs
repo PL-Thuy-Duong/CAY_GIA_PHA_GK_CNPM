@@ -90,8 +90,9 @@ namespace GIAO_DIEN_CNPM
 
         private void guna2PictureBox3_Click(object sender, EventArgs e)
         {
-            frmBaoCao bc = new frmBaoCao();
-            bc.Show();
+            Chon_Bao_Cao chon_Bao_Cao = new Chon_Bao_Cao();
+            OpenChildForm(chon_Bao_Cao);
+
         }
     }
 }

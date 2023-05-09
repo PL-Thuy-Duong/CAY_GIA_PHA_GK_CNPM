@@ -32,5 +32,16 @@ namespace GIAO_DIEN_CNPM.Properties {
                 return ((string)(this["QL_Gia_PhaConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SUNNY\\DUONGSQLSERVER;Initial Catalog=QL_Gia_Pha;Integrated Security=T" +
+            "rue")]
+        public string QL_Gia_PhaConnectionString1 {
+            get {
+                return ((string)(this["QL_Gia_PhaConnectionString1"]));
+            }
+        }
     }
 }

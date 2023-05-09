@@ -12,17 +12,15 @@ using System.Windows.Forms;
 
 namespace GIAO_DIEN_CNPM
 {
-    public partial class frmBaoCao : Form
+    public partial class Bao_Cao_SLTT_1 : Form
     {
-        public frmBaoCao()
+        public Bao_Cao_SLTT_1()
         {
             InitializeComponent();
         }
 
-       
         private void btnIn_Click(object sender, EventArgs e)
         {
-
             //Khai báo câu lệnh SQL
             String sql = "Select * from SOLUONGTT"; //Where NgayGN >='" + dtpTu.Value.ToString() + "'";//+ "<= " + dtpDen.Value.ToString() ;
             SqlConnection con = new SqlConnection(@"Data Source=SUNNY\DUONGSQLSERVER;Initial Catalog=QL_Gia_Pha;Integrated Security=True");
@@ -52,26 +50,5 @@ namespace GIAO_DIEN_CNPM
                 rpvBaoCao.RefreshReport();
             }
         }
-
-        private void slttich_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rpvBaoCao_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmBaoCao_Load(object sender, EventArgs e)
-        {
-            this.rpvBaoCao.RefreshReport();
-        }
-
-        private void rpvBaoCao_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
-

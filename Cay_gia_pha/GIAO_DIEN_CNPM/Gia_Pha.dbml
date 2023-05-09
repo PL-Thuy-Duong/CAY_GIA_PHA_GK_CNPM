@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_Gia_Pha" Class="Gia_PhaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=.\DUONGSQLSERVER;Initial Catalog=QL_Gia_Pha;Integrated Security=True" SettingsObjectName="GIAO_DIEN_CNPM.Properties.Settings" SettingsPropertyName="QL_Gia_PhaConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SUNNY\DUONGSQLSERVER;Initial Catalog=QL_Gia_Pha;Integrated Security=True" SettingsObjectName="GIAO_DIEN_CNPM.Properties.Settings" SettingsPropertyName="QL_Gia_PhaConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.DANG_NHAP_TK" Member="DANG_NHAP_TKs">
     <Type Name="DANG_NHAP_TK">
       <Column Name="TenTK" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
-      <Column Name="MK" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MK" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
   <Table Name="dbo.NN_DD_KET_THUC" Member="NN_DD_KET_THUCs">
     <Type Name="NN_DD_KET_THUC">
       <Column Name="MaTV" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="NgayGio" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NgayGio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="NguyenNhan" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="DD" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Association Name="THONG_TIN_TV_NN_DD_KET_THUC" Member="THONG_TIN_TV" Storage="_THONG_TIN_TV1" ThisKey="MaTV" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
+      <Association Name="THONG_TIN_TV_NN_DD_KET_THUC" Member="THONG_TIN_TV" ThisKey="MaTV" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.QUAN_HE" Member="QUAN_HEs">
@@ -20,15 +20,21 @@
       <Column Name="MaTV1" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="QuanHe" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
       <Column Name="MaTV2" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
-      <Association Name="THONG_TIN_TV_QUAN_HE" Member="THONG_TIN_TV" Storage="_THONG_TIN_TV1" ThisKey="MaTV1" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
+      <Association Name="THONG_TIN_TV_QUAN_HE" Member="THONG_TIN_TV" ThisKey="MaTV1" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SOLUONGTT" Member="SOLUONGTTs">
+    <Type Name="SOLUONGTT">
+      <Column Name="TenTTich" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SL" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </Type>
   </Table>
   <Table Name="dbo.THANH_TICH" Member="THANH_TICHes">
     <Type Name="THANH_TICH">
-      <Column Name="MaTVien" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
-      <Column Name="TenTT" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="NgayGN" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Association Name="THONG_TIN_TV_THANH_TICH" Member="THONG_TIN_TV11" ThisKey="MaTVien" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
+      <Column Name="MaTVien" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenTT" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="NgayGN" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="THONG_TIN_TV_THANH_TICH" Member="THONG_TIN_TV" ThisKey="MaTVien" OtherKey="MaTV" Type="THONG_TIN_TV" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.THONG_TIN_TV" Member="THONG_TIN_TVs">
@@ -44,8 +50,8 @@
       <Column Name="QueQuan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="ThanhTich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Association Name="THONG_TIN_TV_NN_DD_KET_THUC" Member="NN_DD_KET_THUC" ThisKey="MaTV" OtherKey="MaTV" Type="NN_DD_KET_THUC" Cardinality="One" />
+      <Association Name="THONG_TIN_TV_THANH_TICH" Member="THANH_TICHes" ThisKey="MaTV" OtherKey="MaTVien" Type="THANH_TICH" />
       <Association Name="THONG_TIN_TV_QUAN_HE" Member="QUAN_HEs" ThisKey="MaTV" OtherKey="MaTV1" Type="QUAN_HE" />
-      <Association Name="THONG_TIN_TV_THANH_TICH" Member="THANH_TICHes1" ThisKey="MaTV" OtherKey="MaTVien" Type="THANH_TICH" />
     </Type>
   </Table>
 </Database>

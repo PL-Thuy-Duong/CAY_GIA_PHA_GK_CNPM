@@ -63,7 +63,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(481, 58);
             this.guna2Button1.TabIndex = 11;
-            this.guna2Button1.Text = "Thông tin về chúng tôi!";
+            this.guna2Button1.Text = "Quy định về gia phả";
             // 
             // guna2Separator1
             // 

@@ -80,11 +80,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bao_cao.cs">
+    <Compile Include="Bao_cao_SLTT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bao_cao.Designer.cs">
-      <DependentUpon>Bao_cao.cs</DependentUpon>
+    <Compile Include="Bao_cao_SLTT.Designer.cs">
+      <DependentUpon>Bao_cao_SLTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bao_Cao_SLTT_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bao_Cao_SLTT_1.Designer.cs">
+      <DependentUpon>Bao_Cao_SLTT_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bao_Cao_TGTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bao_Cao_TGTV.Designer.cs">
+      <DependentUpon>Bao_Cao_TGTV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chon_Bao_Cao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chon_Bao_Cao.Designer.cs">
+      <DependentUpon>Chon_Bao_Cao.cs</DependentUpon>
     </Compile>
     <Compile Include="Dang_nhap.cs">
       <SubType>Form</SubType>
@@ -104,7 +122,9 @@
     <Compile Include="Ghi_nhan_KT.Designer.cs">
       <DependentUpon>Ghi_nhan_KT.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gia_Pha.cs">
+    <Compile Include="Gia_Pha.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <DependentUpon>Gia_Pha.dbml</DependentUpon>
     </Compile>
     <Compile Include="QL_Gia_PhaDataSet.Designer.cs">
@@ -131,11 +151,6 @@
     </Compile>
     <Compile Include="Tiep_nhan_tv.Designer.cs">
       <DependentUpon>Tiep_nhan_tv.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Gia_Pha.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Gia_Pha.dbml</DependentUpon>
     </Compile>
     <Compile Include="Ho_so_gia_pha.cs">
       <SubType>Form</SubType>
@@ -174,8 +189,17 @@
     <Compile Include="Tro_giup.Designer.cs">
       <DependentUpon>Tro_giup.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bao_cao.resx">
-      <DependentUpon>Bao_cao.cs</DependentUpon>
+    <EmbeddedResource Include="Bao_cao_SLTT.resx">
+      <DependentUpon>Bao_cao_SLTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bao_Cao_SLTT_1.resx">
+      <DependentUpon>Bao_Cao_SLTT_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bao_Cao_TGTV.resx">
+      <DependentUpon>Bao_Cao_TGTV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chon_Bao_Cao.resx">
+      <DependentUpon>Chon_Bao_Cao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dang_nhap.resx">
       <DependentUpon>Dang_nhap.cs</DependentUpon>

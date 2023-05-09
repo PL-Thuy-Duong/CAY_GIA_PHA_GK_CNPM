@@ -561,8 +561,8 @@ namespace GIAO_DIEN_CNPM
 			this._THONG_TIN_TV11 = default(EntityRef<THONG_TIN_TV>);
 			OnCreated();
 		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTVien", DbType="NChar(10) NOT NULL", CanBeNull=false)]
+
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_MaTVien", DbType = "NChar(10) NOT NULL", CanBeNull = false)]
 		public string MaTVien
 		{
 			get
@@ -585,8 +585,8 @@ namespace GIAO_DIEN_CNPM
 				}
 			}
 		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTT", DbType="NVarChar(30) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_TenTT", DbType = "NVarChar(30) NOT NULL", CanBeNull = false, IsPrimaryKey = true)]
 		public string TenTT
 		{
 			get
@@ -605,8 +605,8 @@ namespace GIAO_DIEN_CNPM
 				}
 			}
 		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NgayGN", DbType="DateTime")]
+
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage = "_NgayGN", DbType = "DateTime")]
 		public System.Nullable<System.DateTime> NgayGN
 		{
 			get
@@ -625,7 +625,7 @@ namespace GIAO_DIEN_CNPM
 				}
 			}
 		}
-		
+
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="THONG_TIN_TV_THANH_TICH", Storage="_THONG_TIN_TV11", ThisKey="MaTVien", OtherKey="MaTV", IsForeignKey=true)]
 		public THONG_TIN_TV THONG_TIN_TV11
 		{

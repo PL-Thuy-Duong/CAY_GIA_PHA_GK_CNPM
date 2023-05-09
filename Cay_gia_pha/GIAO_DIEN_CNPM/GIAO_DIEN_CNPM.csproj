@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
@@ -55,10 +61,13 @@
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -98,10 +107,10 @@
     <Compile Include="Gia_Pha.cs">
       <DependentUpon>Gia_Pha.dbml</DependentUpon>
     </Compile>
-    <Compile Include="tblThanhTich.Designer.cs">
+    <Compile Include="QL_Gia_PhaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>tblThanhTich.xsd</DependentUpon>
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Quy_dinh.cs">
       <SubType>Form</SubType>
@@ -110,6 +119,7 @@
       <DependentUpon>Quy_dinh.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="THANH_TICH.cs" />
     <Compile Include="Tiep_nhan_TT.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -237,16 +247,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="tblThanhTich.xsc">
-      <DependentUpon>tblThanhTich.xsd</DependentUpon>
+    <None Include="QL_Gia_PhaDataSet.xsc">
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
     </None>
-    <None Include="tblThanhTich.xsd">
+    <None Include="QL_Gia_PhaDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>tblThanhTich.Designer.cs</LastGenOutput>
+      <LastGenOutput>QL_Gia_PhaDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="tblThanhTich.xss">
-      <DependentUpon>tblThanhTich.xsd</DependentUpon>
+    <None Include="QL_Gia_PhaDataSet.xss">
+      <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
     </None>
     <None Include="Resources\login_icon.png" />
   </ItemGroup>

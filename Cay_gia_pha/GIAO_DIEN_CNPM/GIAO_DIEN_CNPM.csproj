@@ -80,12 +80,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bao_cao_SLTT.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bao_cao_SLTT.Designer.cs">
-      <DependentUpon>Bao_cao_SLTT.cs</DependentUpon>
-    </Compile>
     <Compile Include="Bao_Cao_SLTT_1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +125,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QL_Gia_PhaDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_Gia_PhaDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Quy_dinh.cs">
       <SubType>Form</SubType>
@@ -189,9 +188,6 @@
     <Compile Include="Tro_giup.Designer.cs">
       <DependentUpon>Tro_giup.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Bao_cao_SLTT.resx">
-      <DependentUpon>Bao_cao_SLTT.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Bao_Cao_SLTT_1.resx">
       <DependentUpon>Bao_Cao_SLTT_1.cs</DependentUpon>
     </EmbeddedResource>
@@ -281,6 +277,17 @@
     </None>
     <None Include="QL_Gia_PhaDataSet.xss">
       <DependentUpon>QL_Gia_PhaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_Gia_PhaDataSet1.xsc">
+      <DependentUpon>QL_Gia_PhaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QL_Gia_PhaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_Gia_PhaDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_Gia_PhaDataSet1.xss">
+      <DependentUpon>QL_Gia_PhaDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Resources\login_icon.png" />
   </ItemGroup>

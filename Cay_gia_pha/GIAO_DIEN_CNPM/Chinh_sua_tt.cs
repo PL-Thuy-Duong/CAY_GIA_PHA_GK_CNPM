@@ -117,10 +117,10 @@ namespace GIAO_DIEN_CNPM
                 hienthithanhvienlistbox();
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
-                MessageBox.Show(ex.Message);
+               // MessageBox.Show(ex.Message);
             }
         }
     }

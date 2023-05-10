@@ -84,6 +84,7 @@
             this.btnIn.TabIndex = 36;
             this.btnIn.Text = "In";
             this.btnIn.UseTransparentBackground = true;
+            this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // Bao_Cao_TGTV
             // 
